@@ -1,12 +1,12 @@
 
-// This list contains the countries and their music genres.
-
 const countries = [
 
     {
         name: "South Africa",
 
         genres: [
+
+            // GENRE 1: AMAPIANO
 
             {
                 name: "Amapiano",
@@ -42,12 +42,52 @@ const countries = [
                     }
 
                 ]
+            },
+
+
+            // GENRE 2: CAPE JAZZ
+
+            {
+                name: "Cape Jazz",
+
+                type: "traditional",
+
+                originStatus: "debated",
+
+                description: "Cape Jazz is a South African regional jazz style associated with Cape Town and the Western Cape. It combines jazz improvisation with goema rhythms, Cape carnival music, traditional local melodies and other musical influences.",
+
+                origin: "Cape Jazz developed through the musical and cultural experiences of Cape Town communities, particularly historically marginalised Coloured communities during apartheid. Its originality comes from combining jazz with traditional Cape musical influences, especially goema rhythms and carnival music. However, researchers and musicians do not always agree on whether Cape Jazz is one clearly defined genre or a broader regional musical identity.",
+
+                classification: "South African regional jazz style and musical identity with strong historical and cultural connections to Cape Town.",
+
+                references: [
+
+                    {
+                        text: "Martin, D-C. (2013). Sounding the Cape: Music, Identity and Politics in South Africa.",
+
+                        url: ""
+                    },
+
+                    {
+                        text: "Runner, G.E. (2024). Written History and Lived Legacy of Cape Town Jazz.",
+
+                        url: ""
+                    },
+
+                    {
+                        text: "Layne, V. (2019). Goema's Refrain: Sonic Anticipation and the Musicking Cape.",
+
+                        url: ""
+                    }
+
+                ]
             }
 
         ]
     },
 
-    // More countries can be added here.
+
+    // OTHER COUNTRIES
 
     {
         name: "Algeria",
@@ -75,4 +115,3 @@ const countries = [
     }
 
 ];
-
