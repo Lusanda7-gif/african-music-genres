@@ -97,3 +97,85 @@ main {
   color: #2d2a26;
   margin: 0 0 16px 0;
 }
+
+#genreList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.genre-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.genre-name {
+  margin: 0 0 8px 0;
+  font-size: 1.3rem;
+  color: #2d2a26;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.badge-modern { background-color: #dbeafe; color: #1e3a8a; }
+.badge-traditional { background-color: #fde7c7; color: #7a4a0a; }
+.badge-strong { background-color: #d9f2e1; color: #17613a; }
+.badge-shared { background-color: #fff3bf; color: #7a5b00; }
+.badge-debated { background-color: #fbd9d4; color: #8a2a1c; }
+
+.genre-card h4 {
+  margin: 14px 0 4px 0;
+  font-size: 0.95rem;
+  color: #e76f51;
+}
+
+.genre-card p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.references {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.references li {
+  margin-bottom: 6px;
+}
+
+.references a {
+  color: #1e5fa8;
+  word-break: break-word;
+}
+
+.verify-tag {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: #eeeeee;
+  color: #555555;
+  margin-left: 6px;
+}
+
+.verify-tag.verified {
+  background-color: #d9f2e1;
+  color: #17613a;
+}
