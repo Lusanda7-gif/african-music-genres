@@ -179,6 +179,15 @@ main {
   background-color: #d9f2e1;
   color: #17613a;
 }
+.source-tag {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: #ede7f6;
+  color: #4a2b7a;
+  margin-left: 6px;
+}
 
 @media (max-width: 768px) {
   header h1 {
