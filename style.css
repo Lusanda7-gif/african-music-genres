@@ -58,3 +58,42 @@ header p {
   border-color: #e76f51;
   box-shadow: 0 0 0 3px rgba(231, 111, 81, 0.25);
 }
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+#welcomeMessage {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 8px 0 20px 0;
+}
+
+.label-note {
+  background-color: white;
+  border-left: 5px solid #e76f51;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.label-note h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: #2d2a26;
+}
+
+.label-note p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#countryTitle {
+  font-size: 1.6rem;
+  color: #2d2a26;
+  margin: 0 0 16px 0;
+}
