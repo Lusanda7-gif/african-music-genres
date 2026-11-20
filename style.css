@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf6f0;
+  color: #2b2b2b;
+  margin: 0;
+}
+
+header {
+  background-color: #2d2a26;
+  color: white;
+  text-align: center;
+  padding: 28px 16px;
+}
+
+header h1 {
+  margin: 0 0 8px 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 0;
+  font-size: 1rem;
+  color: #e9dcc9;
+}
+
+.controls {
+  background-color: white;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e3d9c8;
+}
+
+.controls label {
+  font-weight: bold;
+  color: #2d2a26;
+}
+
+.controls select {
+  min-width: 200px;
+  padding: 10px 14px;
+  font-size: 1.05rem;
+  color: #2d2a26;
+  background-color: white;
+  border: 2px solid #2d2a26;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.controls select:hover {
+  background-color: #faf6f0;
+}
+
+.controls select:focus {
+  outline: none;
+  border-color: #e76f51;
+  box-shadow: 0 0 0 3px rgba(231, 111, 81, 0.25);
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+#welcomeMessage {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 8px 0 20px 0;
+}
+
+.label-note {
+  background-color: white;
+  border-left: 5px solid #e76f51;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.label-note h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: #2d2a26;
+}
+
+.label-note p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#countryTitle {
+  font-size: 1.6rem;
+  color: #2d2a26;
+  margin: 0 0 16px 0;
+}
+
+#genreList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.genre-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.genre-name {
+  margin: 0 0 8px 0;
+  font-size: 1.3rem;
+  color: #2d2a26;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.badge-modern { background-color: #dbeafe; color: #1e3a8a; }
+.badge-traditional { background-color: #fde7c7; color: #7a4a0a; }
+.badge-strong { background-color: #d9f2e1; color: #17613a; }
+.badge-shared { background-color: #fff3bf; color: #7a5b00; }
+.badge-debated { background-color: #fbd9d4; color: #8a2a1c; }
+
+.genre-card h4 {
+  margin: 14px 0 4px 0;
+  font-size: 0.95rem;
+  color: #e76f51;
+}
+
+.genre-card p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.references {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.references li {
+  margin-bottom: 6px;
+}
+
+.references a {
+  color: #1e5fa8;
+  word-break: break-word;
+}
+
+.verify-tag {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: #eeeeee;
+  color: #555555;
+  margin-left: 6px;
+}
+
+.verify-tag.verified {
+  background-color: #d9f2e1;
+  color: #17613a;
+}
+.source-tag {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: #ede7f6;
+  color: #4a2b7a;
+  margin-left: 6px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .controls select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #genreList {
+    grid-template-columns: 1fr;
+  }
+}
