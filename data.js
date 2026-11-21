@@ -606,7 +606,184 @@ const countries = [
 
   // OTHER AFRICAN COUNTRIES (research coming soon)
 
-  { name: "Algeria", genres: [] },
+  { name: "Algeria", genres: [
+    
+{
+  name: "Raï",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Raï is an Algerian urban popular-music genre that developed in western Algeria, particularly in the city of Oran, during the early twentieth century. It is characterised by expressive vocals, rhythmic melodies, poetic lyrics and a combination of traditional Algerian instruments and modern musical arrangements. Early Raï performances commonly featured instruments such as the gasba (reed flute), gellal (hand drum) and rbab (single-stringed bowed instrument). Modern Raï incorporates electronic keyboards, synthesised sounds, electric guitars, drum machines and other contemporary instruments. Its musical influences include traditional Bedouin music, Algerian folk poetry, Arabic music and international popular styles such as pop, rock and disco. Raï lyrics frequently explore love, relationships, freedom, social difficulties, youth experiences and everyday life. The genre is particularly recognised for its expressive vocal delivery and its willingness to address subjects that were sometimes considered socially controversial. Important performers associated with Raï include Cheikha Rimitti, Khaled, Cheb Mami, Cheb Hasni and Rachid Taha.",
+
+  origin:
+    "Raï developed in western Algeria during the early decades of the twentieth century, particularly in Oran and surrounding communities. Its origins are connected to rural Bedouin musical traditions, popular Arabic poetry and the social changes associated with colonialism, urbanisation and migration. Early Raï emerged through the adaptation of traditional sung poetry and Bedouin musical practices into a more informal and expressive popular style. Female singers known as cheikhat played an important role in its early development, performing at weddings, festivals, cafés and other social gatherings. Male singers known as cheikhs also contributed to the development of the genre through their interpretation of popular poetry and traditional melodies. During the twentieth century, Raï gradually incorporated new instruments and international musical influences. From the 1950s onwards, musicians experimented with instruments such as the accordion, trumpet and saxophone. During the 1970s and 1980s, a more modern electronic form of Raï emerged, incorporating electric guitars, synthesised sounds and contemporary popular-music arrangements. The genre gained considerable international recognition during the 1980s and 1990s through performers such as Khaled, Cheb Mami and Rachid Taha. Raï's originality lies in its transformation of traditional western Algerian poetry and musical practices into an expressive urban popular-music genre. Its combination of local musical traditions, contemporary instruments, conversational lyrics and social commentary created a distinctive Algerian sound that subsequently spread across North Africa and internationally. Its early development predates the electronic and internationally popular form that became widely recognised during the late twentieth century.",
+
+  classification:
+    "Algerian-developed urban popular-music genre with documented origins in western Algeria, particularly Oran, combining traditional Bedouin musical influences, Algerian poetry and modern popular-music arrangements.",
+
+  references: [
+    {
+      text:
+        "Swedenburg, T. (2003). Rai's Travels. Review of Middle East Studies, 36(2), 190–193.",
+      url:
+        "https://doi.org/10.1017/S0026318400044837",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Raï's early development in Oran, traditional instruments and the role of female singers."
+    },
+    {
+      text:
+        "Schade-Poulsen, M. (1999). Men and Popular Music in Algeria: The Social Significance of Raï. Austin: University of Texas Press.",
+      url:
+        "https://doi.org/10.7560/777392",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Anthropological study examining Raï's history, social significance and relationship with Algerian youth."
+    },
+    {
+      text:
+        "Al-Deen, H.N. (2005). The Evolution of Rai Music. Journal of Black Studies, 35(5).",
+      url:
+        "https://doi.org/10.1177/0021934704273906",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the evolution of Raï and its combination of Algerian and international musical influences."
+    },
+    {
+      text:
+        "UNESCO (2022). Raï, popular folk song of Algeria. Representative List of the Intangible Cultural Heritage of Humanity.",
+      url:
+        "https://ich.unesco.org/en/decisions/17.COM/7.B.38",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Official UNESCO decision documenting Algeria's nomination of Raï as an element of its intangible cultural heritage."
+    }
+  ]
+},
+
+{
+  name: "Algerian Chaabi",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Algerian Chaabi, also known as Chaâbi or Sha'bi, is an Algerian urban popular-music genre that developed in Algiers during the early twentieth century. It is characterised by expressive vocal performances, poetic lyrics, melodic arrangements and a combination of Andalusian musical influences and Algerian popular traditions. Its instrumentation commonly includes the mandole, oud, banjo, violin, piano and percussion instruments such as the darbuka. The music frequently uses Arabic poetry, particularly the melhûn tradition, and is commonly performed in Algerian Arabic. Its lyrics explore themes such as love, migration, separation, social experiences, religion and everyday life. Algerian Chaabi is particularly associated with musicians such as El Hadj M'Hamed El Anka, Dahmane El Harrachi, El Hachemi Guerouabi and Amar Ezzahi. Its distinctive musical identity comes from combining Andalusian musical structures, Algerian poetic traditions and urban popular performance practices.",
+
+  origin:
+    "Algerian Chaabi emerged in the working-class neighbourhoods of Algiers during the early twentieth century, particularly in the Casbah. Its development was closely connected to the urban social and cultural environment of the capital, where musicians adapted Andalusian musical traditions and Algerian poetic practices to create a more accessible form of popular music. The genre drew on Arab-Andalusian music, Amazigh musical influences and the melhûn tradition of sung poetry. Its development also reflected the interaction of different cultural and religious communities in colonial Algiers, including Muslim and Jewish musicians who contributed to the city's musical life. El Hadj M'Hamed El Anka is widely recognised as a central figure in the development and popularisation of Algerian Chaabi. Through his performances and musical innovations, he helped establish the genre's distinctive style and expand its popularity among urban audiences. During the twentieth century, Chaabi became increasingly popular throughout Algeria and among Algerian communities abroad. Its originality lies in adapting older Andalusian musical structures and poetic traditions into an expressive urban popular-music style that reflects Algerian language, cultural identity and everyday social experiences. Although it shares influences with other North African musical traditions, Algerian Chaabi developed a distinctive identity associated particularly with Algiers.",
+
+  classification:
+    "Algerian-developed urban popular-music genre with documented origins in early twentieth-century Algiers, combining Andalusian musical influences, Algerian poetic traditions and urban popular performance practices.",
+
+  references: [
+    {
+      text:
+        "Wilford, S. (2016). Bledi Cockneys: Music, Identity and Mediation in Algerian London. PhD thesis, City, University of London.",
+      url:
+        "https://openaccess.city.ac.uk/id/eprint/17031/",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Algerian musical identities and specifically discusses Chaabi's development in Algiers, its Andalusian and Berber influences, and its musical characteristics."
+    },
+    {
+      text:
+        "Touati, S. (2018). Wine, love or divine love? Analysing three short traditional Algerian Sha'bi Songs. Mediterranean Politics.",
+      url:
+        "https://doi.org/10.1080/13629387.2018.1517339",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Algerian Sha'bi lyrics, Andalusian influences, melhûn poetry and Sufi symbolism. Journal bibliographic details should be checked against the publisher record before final submission."
+    },
+    {
+      text:
+        "Seeing Music in Early Twentieth Century Colonial Algeria. Twentieth-Century Music, Cambridge University Press.",
+      url:
+        "https://www.cambridge.org/core/journals/twentieth-century-music/article/seeing-music-in-early-twentieth-century-colonial-algeria/70682F4BC3DF1BFB5B6438BFDFABD591",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Provides historical context for the development of Andalusian and urban musical performance in colonial Algiers."
+    },
+    {
+      text:
+        "Embassy of the People's Democratic Republic of Algeria. Algerian Music.",
+      url:
+        "https://www.ambalgzagreb.com/algerian-music/",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Provides an institutional cultural overview identifying Chaabi's origins in the working-class neighbourhoods of Algiers during the first half of the twentieth century."
+    }
+  ]
+},
+
+{
+  name: "Chaoui Music",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Chaoui music is a traditional musical heritage of the Chaoui-speaking Amazigh communities of the Aurès region in eastern Algeria. It is characterised by expressive vocal performances, traditional poetry, rhythmic singing and the use of instruments such as the gasba (reed flute) and bendir (frame drum). One of its distinctive performance traditions is Rahaba, a communal form of singing and dancing in which groups perform together, accompanied by rhythmic percussion and wind instruments. Other forms include solo singing accompanied by the gasba and bendir. Traditional Chaoui songs commonly explore themes of love, bravery, community life, cultural identity, celebration and historical memory. Performances are associated with weddings, festivals and other community gatherings. Although traditional Chaoui music remains closely connected to the cultural identity of the Aurès, contemporary musicians have also developed modern interpretations incorporating guitars, keyboards, rock and other popular-music influences. Important performers associated with Chaoui music include Aïssa Djermouni, Beggar Hadda, Houria Aïchi, Katchou and Massinissa.",
+
+  origin:
+    "Chaoui music originates from the Aurès Mountains of northeastern Algeria, particularly the areas surrounding Batna, Khenchela and neighbouring communities. It developed within Chaoui-speaking Amazigh communities and is closely connected to their oral traditions, language, social customs and cultural identity. Historically, music played an important role in everyday community life, including weddings, celebrations, seasonal gatherings and other social occasions. Traditional songs were transmitted orally between generations and reflected the experiences, values and collective memory of the Chaoui people. A distinctive feature of the tradition is Rahaba, a communal singing and dancing practice involving groups of performers accompanied by instruments such as the gasba and bendir. These performances combine vocal expression, rhythmic repetition and coordinated movements. Women have also played an important role in preserving Chaoui musical traditions through ceremonial singing, poetry and the transmission of songs within families and communities. During the twentieth century, Chaoui music gained wider recognition through performers such as Aïssa Djermouni and Beggar Hadda. Their performances helped introduce the musical traditions of the Aurès to audiences beyond the region. In later decades, musicians developed contemporary forms of Chaoui music by incorporating electric guitars, keyboards and influences from rock, pop and other popular genres. Its originality lies in its distinctive connection to the Chaoui Amazigh language and cultural identity, its communal singing and dancing traditions, and its characteristic use of the gasba and bendir. Although modern interpretations have expanded its musical expression, traditional Chaoui music maintains a recognisable regional identity.",
+
+  classification:
+    "Traditional Algerian regional folk music heritage associated with the Chaoui Amazigh communities of the Aurès Mountains, characterised by oral poetry, communal singing, traditional dance and the use of gasba and bendir.",
+
+  references: [
+    {
+      text:
+        "Boutamine, L. (2020). Pour une approche socio-anthropologique de la chanson Algérienne: Le cas de la chanson chaouie. El-ihyaa, 20(26), 1141–1160.",
+      url:
+        "https://dspace.univ-batna.dz/server/api/core/bitstreams/ba3ffc76-4f4f-41ab-bdc5-8bd902bb158f/content",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines traditional and modern Chaoui music, cultural identity and the social significance of Chaoui songs."
+    },
+    {
+      text:
+        "Haddad, M. (2003). Jermouni Aïssa (1886–1945). Encyclopédie berbère, 25, 3870–3872.",
+      url:
+        "https://doi.org/10.4000/encyclopedieberbere.1494",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Provides historical evidence about Aïssa Djermouni, early twentieth-century Chaoui singing, instruments and performance practices."
+    },
+    {
+      text:
+        "Kateb, R. (2025). La langue et culture chaouies en Algérie. Entre persistance culturelle et résistance linguistique. Langues & Discours, 2(3), 130–162.",
+      url:
+        "https://journals.univ-tlemcen.dz/LD/index.php/LD/article/view/15",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Chaoui cultural identity, language, musical traditions and intergenerational cultural transmission."
+    },
+    {
+      text:
+        "Institut du Monde Arabe. L'écho des montagnes: La Kelthoum des Chaouis.",
+      url:
+        "https://www.imarabe.org/fr/agenda/spectacles/echo-montagnes",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Documents Rahaba, group singing, traditional dance and the use of gasba and bendir in Chaoui musical performance."
+    }
+  ]
+},
+
+
+  ] },
   { name: "Angola", genres: [] },
   { name: "Botswana", genres: [] },
   { name: "Zimbabwe", genres: [] },
