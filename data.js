@@ -783,6 +783,340 @@ const countries = [
 },
 
 
+{
+  name: "Andalusian Nuba (Algerian Schools)",
+  type: "traditional",
+  originStatus: "shared",
+
+  description:
+    "Andalusian Nuba is a traditional form of classical music found in Algeria and other parts of North Africa. It has historical connections to Al-Andalus, the medieval Muslim territories of the Iberian Peninsula, and became established in North Africa through centuries of migration and cultural exchange. In Algeria, the tradition developed into three main regional schools: San'a in Algiers, Gharnati in Tlemcen and Malouf in Constantine. Although these schools share similar historical influences, each has its own melodies, rhythms and musical repertoire. One of the main characteristics of Andalusian Nuba is its musical structure, known as the nouba, which is made up of several connected vocal and instrumental sections organised around a particular musical mode. Traditional instruments include the oud, violin, qanun, ney, rebab and different percussion instruments such as the darbuka and riqq. The songs often use classical Arabic poetry and explore themes such as love, nature, spirituality and human experiences. The music has traditionally been performed during cultural celebrations, weddings and formal musical gatherings. It is also closely connected to the preservation of Algerian history and cultural identity. Important musicians associated with these traditions include Edmond Yafil, El Hadj Mohamed El Anka, Abdelkrim Bestandji, Kaddour Darsouni and Lila Borsali. Today, Andalusian Nuba continues to be performed by musical associations and orchestras throughout Algeria, helping preserve the country's different regional musical traditions.",
+
+  origin:
+    "The historical roots of Andalusian Nuba are connected to the musical traditions of Al-Andalus, where Arab, Amazigh, Jewish and other cultural influences contributed to the development of classical music in medieval Spain. Following the political changes and the eventual fall of Muslim Granada in 1492, many Muslims and Jews migrated to North Africa, bringing different musical traditions, poetry and cultural practices with them. These traditions gradually became established in cities such as Algiers, Tlemcen and Constantine. Over time, local musicians adapted the music to their own cultural environments, creating different regional styles. In Algeria, this resulted in three main schools: San'a in Algiers, Gharnati in Tlemcen and Malouf in Constantine. Although they share historical connections, each school developed its own melodies, rhythms and musical characteristics. The musical structure is based on the nouba, a suite of connected vocal and instrumental sections organised around a particular musical mode. During the nineteenth and early twentieth centuries, Algerian musicians became increasingly concerned about preserving this musical heritage because many traditional songs and compositions were at risk of disappearing. One important figure was Edmond Yafil, an Algerian Jewish musician who worked to collect and document Andalusian songs. In 1904, he published a collection of Andalusian songs and melodies, helping preserve important parts of the repertoire. He also contributed to the development of organised musical associations and orchestras in Algeria. During the twentieth century, these associations played an important role in teaching younger musicians and keeping the different regional schools alive. Researchers such as Jonathan Glasser have also examined how Andalusian music became part of Algerian cultural heritage and how its regional traditions developed over time. Its originality in Algeria does not come from being invented entirely within the country, but from the way Algerian musicians preserved, adapted and developed the wider Andalusian tradition. The three regional schools have created distinctive musical identities that reflect the history and cultural experiences of Algiers, Tlemcen and Constantine. This makes Andalusian Nuba an important part of Algeria's traditional musical heritage, while recognising that its historical roots are shared with other North African countries.",
+
+  classification:
+    "Traditional North African classical musical tradition with shared historical roots in Al-Andalus and distinct regional development in Algeria. It is represented by three main Algerian schools: San'a in Algiers, Gharnati in Tlemcen and Malouf in Constantine. The tradition is characterised by the nouba musical suite, classical Arabic poetry, traditional instruments and regional melodic and rhythmic styles.",
+
+  references: [
+    {
+      text:
+        "Glasser, J. (2015). Andalusi Musical Origins at the Moroccan-Algerian Frontier: Beyond Charter Myth. American Ethnologist, 42(4), 720–733.",
+      url:
+        "https://doi.org/10.1111/amet.12166",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the historical origins and development of Andalusian music in Algeria and Morocco. Particularly useful for understanding how historical origin narratives relate to the musical traditions practised today."
+    },
+    {
+      text:
+        "Glasser, J. (2016). The Lost Paradise: Andalusi Music in Urban North Africa. Chicago: University of Chicago Press.",
+      url:
+        "https://doi.org/10.7208/chicago/9780226327372.001.0001",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Andalusian music in Algiers, Tlemcen and their surrounding regions. Explains how Algerian musicians preserved and developed the tradition and how it became part of local cultural heritage."
+    },
+    {
+      text:
+        "Wilford, S. (2016). Bledi Cockneys: Music, Identity and Mediation in Algerian London. PhD thesis, City, University of London.",
+      url:
+        "https://openaccess.city.ac.uk/id/eprint/17031/",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Identifies the three main Algerian Andalusian schools: San'a in Algiers, Gharnati in Tlemcen and Malouf in Constantine. Discusses their musical differences and their importance in Algerian cultural identity."
+    },
+    {
+      text:
+        "Bustanat, A. S. (2022). The Algerian Musical Heritage: A Study of Types and Styles – The Case of Formal Music. Al-Ma'yar, 9(3), 276–295.",
+      url:
+        "https://asjp.cerist.dz/en/article/208182",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Studies Algerian Andalusian musical heritage using historical and musical analysis. Examines the nouba structure and the differences between the main Algerian regional musical styles."
+    },]},
+
+
+{
+  name: "Kabyle Music",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Kabyle music is a traditional musical style that comes from the Kabyle Amazigh communities of northern Algeria, particularly the mountainous regions of Kabylie. It is known for its expressive singing, poetic lyrics and strong connection to Kabyle language and culture. Traditionally, music was an important part of everyday life and was performed during weddings, celebrations, family gatherings and other community events. Singing and oral poetry played a major role in passing stories, traditions and cultural values from one generation to another. Traditional performances included rhythmic percussion instruments such as the bendir (frame drum), while other musical instruments and arrangements became more common as the music developed. Kabyle songs often explore themes such as love, family, migration, homesickness, freedom, social difficulties and cultural identity. During the twentieth century, musicians began introducing instruments such as the mandole, guitar, violin and modern keyboards, creating a more contemporary sound. Important performers associated with Kabyle music include Cheikh El Hasnaoui, Slimane Azem, Cherif Kheddam, Idir, Matoub Lounès and Takfarinas. Today, Kabyle music continues to be an important way of expressing and preserving the language, history and identity of the Kabyle people.",
+
+  origin:
+    "Kabyle music originated within the Amazigh communities of Kabylie, a mountainous region in northern Algeria, particularly around areas such as Tizi Ouzou and Béjaïa. Its early development is closely connected to the traditional lifestyle, language and oral poetry of the Kabyle people. Before music became widely recorded, songs were mainly passed down orally and performed during social gatherings, weddings and celebrations. Poetry was especially important because it allowed people to share personal experiences, tell stories and express their feelings about the society around them. Women also played an important role in traditional singing and in keeping these musical practices alive within their communities. Historical studies of Kabyle music can be traced back to the nineteenth century. In 1867, Francisco Salvador-Daniel published a study of Kabyle music that included musical transcriptions and observations about its melodies. Adolphe Hanoteau also documented Kabyle popular poetry, providing valuable information about the relationship between music and oral traditions in the region. Later, Jules Rouanet examined Kabyle music in his 1922 work on music in the Maghreb, describing its characteristics and discussing the influence of modern European music on traditional melodies. During the twentieth century, Kabyle music began to change as musicians introduced new instruments and recording techniques. Artists such as Slimane Azem and Cherif Kheddam helped develop modern Kabyle songs while maintaining their connection to traditional poetry and language. Idir later gained international recognition through songs such as A Vava Inouva, which introduced Kabyle musical culture to a much wider audience. Matoub Lounès also became an important figure, using music to express issues relating to Amazigh identity, language and social conditions. The development of modern Kabyle music shows how the tradition has continued to change while keeping its cultural roots. Its originality comes from its development within the Kabyle communities of Algeria, its distinctive use of the Kabyle language, its traditional poetry and its connection to the history and identity of the region. Although modern Kabyle music has been influenced by international musical styles, it remains a distinctive Algerian regional musical tradition.",
+
+  classification:
+    "Traditional Algerian regional folk-music genre originating within the Kabyle Amazigh communities of northern Algeria. It is characterised by expressive singing, oral poetry, traditional percussion and a strong connection to Kabyle language, history and cultural identity. Its later development into modern popular music has helped preserve and spread this distinctive regional musical tradition.",
+
+  references: [
+    {
+      text:
+        "Khellal, N. (2018). L'image de la musique kabyle dans les écrits musico-orientalistes de Francisco Salvador-Daniel et Jules Rouanet. Revue des Traditions Musicales, 12(1), 64–72.",
+      url:
+        "https://doi.org/10.51300/RTM-2018-94",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines early historical studies of Kabyle music, including its melodic characteristics, traditional musical identity and the work of nineteenth- and early twentieth-century researchers."
+    },
+    {
+      text:
+        "Khellal, N. (2023). Relecture de La musique chez les kabyles dans la synthèse de Rouanet : modernisation et occidentalisation cent ans après. Turath, 1(2), 139–158.",
+      url:
+        "https://asjp.cerist.dz/en/article/240908",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the development of Kabyle music from its traditional forms to modern interpretations, including the influence of European musical styles and new instruments."
+    },
+    {
+      text:
+        "Mahfoufi, M. Musiques de Kabylie. Encyclopédie berbère.",
+      url:
+        "https://journals.openedition.org/encyclopedieberbere/pdf/3234",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Provides historical information about Kabyle musical traditions, early documentation, traditional singing and the importance of music within Kabyle society."
+    },
+    {
+      text:
+        "Goodman, J. E. (2002). The Half-Lives of Texts: Poetry, Politics, and Ethnography in Kabylia, Algeria. Journal of Linguistic Anthropology, 12(2), 157–188.",
+      url:
+        "https://doi.org/10.1525/jlin.2002.12.2.157",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the relationship between Kabyle oral poetry, cultural identity and the historical recording and preservation of traditional texts in Algeria."
+    },
+    {
+      text:
+        "Goodman, J. E. (2003). From Village to Vinyl: Genealogies of New Kabyle Song. Emergences: Journal for the Study of Media & Composite Cultures, 13(1–2), 75–93.",
+      url:
+        "https://doi.org/10.1080/1045722042000308246",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines how traditional Kabyle village songs developed into modern recorded music and discusses the contribution of musicians such as Idir."
+    }
+  ]
+},
+
+
+{
+  name: "Diwan Music",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Diwan music, also known as Diwan Sidi Bilal, is a traditional Algerian musical and spiritual practice that developed through the interaction of sub-Saharan African and North African cultures. It is performed in different parts of Algeria and is particularly associated with communities in the western regions of the country. The music is known for its strong rhythms, repetitive singing, group performances and dancing. Traditional instruments include the gumbri, a three-stringed bass instrument covered with animal skin, and the qarqaba, which are large metal castanets used to create rhythmic sounds. The music is often performed during spiritual ceremonies, celebrations and community gatherings. Its songs can contain references to ancestors, spiritual figures, historical experiences and religious beliefs. One of its most distinctive features is the use of music and dancing to create trance-like experiences during certain ceremonies. Diwan also has an important social purpose because it brings communities together and helps preserve their history and traditions. Its musical influences come from different sub-Saharan African communities, particularly Hausa traditions, as well as local Algerian Arabic, Amazigh and Sufi practices. Although it shares some similarities with Moroccan Gnawa and Tunisian Stambeli, Algerian Diwan has its own musical repertoire and regional characteristics. Today, it remains an important part of Algeria's cultural and spiritual heritage.",
+
+  origin:
+    "Algerian Diwan developed through the historical movement of sub-Saharan African populations into North Africa, particularly through trans-Saharan trade routes and the slave trade. People from different parts of Africa brought their musical traditions, languages, songs and spiritual practices with them when they arrived in the territories of present-day Algeria. Over time, these traditions came into contact with local Arab and Amazigh communities, creating new forms of music and religious expression. During the Ottoman period, these communities were also influenced by local Islamic practices and Sufi religious traditions. These cultural interactions gradually contributed to the development of Diwan as a distinctive Algerian musical and spiritual practice. The name Diwan refers to an assembly or gathering, while Sidi Bilal is an important spiritual figure within the tradition. Music became central to Diwan ceremonies, with instruments such as the gumbri and qarqaba used to create repetitive rhythms that accompany singing and dancing. Different songs and rhythms are associated with particular spiritual figures and historical traditions. Over time, different communities developed their own ways of performing Diwan. Research by ethnomusicologist Tamara Dee Turner has shown that western and eastern Algerian Diwan can have quite different musical and ritual characteristics. For example, western practices are commonly associated with the gumbri and group ceremonies, while some eastern practices place greater importance on percussion and other ritual activities. During the twentieth century, Diwan continued to be practised within Algerian communities, particularly through family traditions and spiritual gatherings. It also gained wider recognition through cultural festivals, recordings and contemporary performances. Its originality lies in the way different sub-Saharan African musical and spiritual traditions developed into a distinctive Algerian practice through centuries of cultural interaction. Although its historical roots extend beyond Algeria, its musical repertoire, regional communities and religious practices have developed within Algerian society, making it an important part of the country's cultural heritage.",
+
+  classification:
+    "Traditional Algerian Afro-Maghrebi musical and spiritual tradition developed through historical interactions between sub-Saharan African populations and local Algerian communities. It is characterised by the use of the gumbri and qarqaba, repetitive singing, group performances and trance dancing during spiritual ceremonies. Although its historical influences extend beyond Algeria, its development into a distinctive musical and ritual practice is strongly connected to Algerian history and society.",
+
+  references: [
+    {
+      text:
+        "Turner, T. D. (2017). Algerian Dīwān of Sīdī Bilāl: Music, Trance, and Affect in Popular Islam. PhD thesis, King's College London.",
+      url:
+        "https://kclpure.kcl.ac.uk/portal/en/studentTheses/algerian-d%C4%ABw%C4%81n-of-s%C4%ABd%C4%AB-bil%C4%81l/",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Extensive ethnomusicological research examining the historical development of Algerian Diwan, its trans-Saharan origins, musical instruments, spiritual practices and relationship with Sufi traditions."
+    },
+    {
+      text:
+        "Turner, T. D. (2020). Music and Trance as Methods for Engaging with Suffering. Ethos, 48(1), 69–87.",
+      url:
+        "https://doi.org/10.1111/etho.12265",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Algerian Diwan as a musical and spiritual tradition, particularly the use of music, trance and dancing during ceremonies and the relationship between these practices and community life."
+    },
+    {
+      text:
+        "Turner, T. D. (2022). Hausa Songs in Algeria: Sounds of Trans-Saharan Continuity and Rupture. Journal of North African Studies, 27(5), 998–1026.",
+      url:
+        "https://doi.org/10.1080/13629387.2021.1898225",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Hausa musical influences within Algerian Diwan and provides historical evidence of the connections between sub-Saharan African musical traditions and their continued performance in Algeria."
+    },
+    {
+      text:
+        "Turner, T. D. (2023). Black Music in the Maghrib: Communities, Practices, and Performance beyond Rouanet. Turath, 1(2), 72–83.",
+      url:
+        "https://asjp.cerist.dz/en/article/240906",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Discusses different Diwan traditions across Algeria and explains how regional communities developed distinctive musical and ritual practices through historical trans-Saharan connections."
+    },
+    {
+      text:
+        "Turner, T. D. (2026). Dancing at the Thresholds: Music, Trance, and Feeling in Algerian Dīwān of Sīdī Bilāl. Bloomington: Indiana University Press.",
+      url:
+        "https://iupress.org/9780253075871/dancing-at-the-thresholds/",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book based on extensive ethnographic research into Algerian Diwan, examining its history, musical practices, spiritual beliefs and the experiences of its communities."
+    }
+  ]
+},
+
+
+{
+  name: "Hawzi",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Hawzi is a traditional Algerian musical style that developed in Tlemcen, in the western part of the country. It is closely related to Andalusian music but has its own characteristics, especially in the way it combines music with popular poetry written in a simpler form of Arabic. Unlike classical Andalusian music, which often uses more formal poetic language and complex musical structures, Hawzi is more accessible and focuses on everyday experiences and emotions. Its songs commonly explore themes such as love, longing, separation, nature and relationships. Traditional performances usually include instruments such as the oud, violin, rebab, bendir and tambourine. The music is often performed by singers accompanied by small musical ensembles during weddings, celebrations and other social occasions. Hawzi is also known for its poetic style and distinctive rhythms, which give it a different sound from other Algerian Andalusian traditions. Important poets and figures associated with its development include Ibn Musayab, Ibn Sahla and Ahmed Ben Triki. Today, Hawzi remains an important part of Tlemcen's cultural heritage and continues to be performed by Algerian musicians who help preserve its traditional songs and melodies.",
+
+  origin:
+    "Hawzi originated in Tlemcen, a city in western Algeria that has a long history of music, poetry and cultural exchange. Its development was closely connected to the Andalusian musical tradition, which became established in the region through historical migration and cultural contact between Al-Andalus and North Africa. However, Hawzi gradually developed into a different style as local musicians began using popular Arabic language and poetry instead of relying only on the more formal literary language found in classical Andalusian music. This made the songs easier for ordinary people to understand and enjoy. The tradition is believed to have developed during the sixteenth century, although its exact beginnings are difficult to establish. One of the important figures associated with its early development was Ahmed Ben Triki, a poet from Tlemcen whose work contributed to the city's popular poetic tradition. Other important poets included Ibn Musayab, who became particularly influential during the eighteenth century, and Ibn Sahla, whose poetry helped expand the Hawzi repertoire. Their songs explored everyday emotions and experiences, making the music closely connected to the lives of local people. Over time, Hawzi became popular during weddings, celebrations and other social gatherings. It also developed its own musical rhythms and performance practices while keeping some of the melodies and structures associated with Andalusian music. Research by Algerian scholars has helped document its history, particularly the relationship between its poetry and musical performance. Today, Hawzi is recognised as an important part of Tlemcen's musical identity and Algerian cultural heritage. Its originality comes from the way musicians and poets in Tlemcen adapted Andalusian influences into a local musical style using popular Arabic poetry, distinctive rhythms and themes connected to everyday life. Although it shares historical influences with other Andalusian traditions across North Africa, Hawzi developed a recognisable identity within Algeria, particularly in Tlemcen.",
+
+  classification:
+    "Traditional Algerian regional musical and poetic genre originating in Tlemcen, western Algeria. It developed from Andalusian musical influences combined with local Arabic poetry, popular language and distinctive rhythmic patterns. Its development within Tlemcen's musical culture gives it a recognised Algerian regional identity.",
+
+  references: [
+    {
+      text:
+        "Maqnounif, S. (2019). فن الحوزي التلمساني من النص الشعري إلى الأداء الموسيقي (The Tlemcen Hawzi Art: From Poetic Text to Musical Performance). Dirassat in Humanities and Social Sciences, 2(8), 63.",
+      url:
+        "https://openurl.ebsco.com/contentitem/gcd:137964338",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Directly examines Hawzi as a musical and poetic tradition that developed in Tlemcen. Discusses its history, popular Arabic poetry, musical rhythms and differences from classical Andalusian music."
+    },
+    {
+      text:
+        "Benabdallah, F. (2021). The Movement of Popular Hawzi Poetry in the Tlemcen Region (Ibn Sahla Boumediene as a Model). The Notebooks of the Algerian Poetics Laboratory Journal, 6(1).",
+      url:
+        "https://journals.univ-msila.dz/index.php/JAPL/article/view/5414",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Studies the development of popular Hawzi poetry in Tlemcen and examines the contribution of Ibn Sahla Boumediene to the tradition."
+    },
+    {
+      text:
+        "Baghdad, A. (2025). Musical Imagery in Hawzi Poetry: Ibn Musayab as a Model.",
+      url:
+        "https://asjp.cerist.dz/en/article/284544",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the poetic and musical characteristics of Hawzi through the work of Ibn Musayab. Discusses the historical development of the tradition and the contribution of Tlemcen poets during the eighteenth century."
+    },
+    {
+      text:
+        "University of Tlemcen. The Musical Heritage of the City of Tlemcen.",
+      url:
+        "https://bu.univ-tlemcen.dz/index.php/en/pages/97/the-musical-heritage-of-the-city-of-tlemcen",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Provides an institutional overview of Tlemcen's musical heritage and identifies Hawzi as an important local genre influenced by Andalusian music, popular poetry and local Arabic expression."
+    },
+    {
+      text:
+        "Dadoua Hadria, N. (2025). Women's Lyric Poetry in Algeria: The Hawfi of Tlemcen. Turath, 3(1), 8–18.",
+      url:
+        "https://doi.org/10.53283/3jfq3w69",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Provides additional historical context about Tlemcen's popular poetic traditions, particularly women's lyrical poetry. This is supporting regional context rather than direct evidence about Hawzi."
+    }
+  ]
+},
+
+{
+  name: "Staifi",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Staifi is a popular Algerian music style that developed in Sétif and the surrounding areas of eastern Algeria. It is mainly known for its lively rhythms, energetic melodies and strong connection to dancing and celebrations. The music is particularly popular at weddings, family gatherings and other festive occasions. Its sound combines influences from traditional Sraoui singing, Chaoui melodies and Bedouin musical rhythms, alongside influences from other Algerian and neighbouring musical traditions. Traditional instruments and modern arrangements are both used, including the zorna, derbouka, bendir and electronic keyboards. The lyrics often explore themes such as love, relationships, homesickness, regional identity and everyday experiences. Staifi is especially recognised for its fast rhythms and its ability to create an energetic atmosphere during celebrations. Important performers associated with the genre include Nordine Staifi, Samir Staifi, Rabah Staifi, Cheb Khalass and Mustapha Allal. Although its earlier musical influences are connected to traditional eastern Algerian music, Staifi became increasingly modern through the introduction of electronic instruments and contemporary popular-music arrangements. Today, it is an important part of the musical identity of Sétif and is performed at celebrations throughout Algeria.",
+
+  origin:
+    "Staifi developed in Sétif, a city located in the High Plateaus of eastern Algeria. Its development is connected to older regional musical traditions, particularly Sraoui, which was traditionally performed in the Sétif region. These earlier musical practices were influenced by the everyday life, poetry and cultural traditions of eastern Algerian communities. Over time, musicians began adapting traditional melodies and rhythms into a more modern and dance-oriented style. Staifi also developed through the influence of neighbouring musical traditions, particularly Chaoui music from the Aurès region and Bedouin musical styles. These influences helped create its distinctive combination of lively melodies and energetic rhythms. During the twentieth century, the music gradually became more popular at weddings, celebrations and other social gatherings. Musicians started introducing modern instruments, especially electronic keyboards and synthesised sounds, which changed the way the music was performed and recorded. Artists such as Nordine Staifi and Samir Staifi helped popularise the style, while later performers such as Cheb Khalass brought it to younger audiences. The genre also spread beyond Sétif through recordings, cassette distribution and performances by Algerian musicians living abroad. The Institut du Monde Arabe identifies Staifi, also known as Sraoui in its regional context, as a musical compromise between Chaoui melodies and Bedouin rhythms, with additional influences from Kabyle, Tunisian and Raï music. However, traditional Sraoui singing and modern Staifi should not be considered completely interchangeable, as the latter developed into a more modern popular dance-music style. Its originality comes from the way musicians in Sétif transformed local musical traditions and influences from eastern Algeria into a distinctive popular style. Although it incorporates elements from other regional traditions, Staifi developed a strong connection to Sétif and became an important part of Algerian popular music.",
+
+  classification:
+    "Modern Algerian regional popular-music genre associated with Sétif and the eastern High Plateaus. It developed from local Sraoui musical traditions and combines Chaoui melodic influences, Bedouin rhythms and modern popular-music arrangements. Its energetic rhythms and strong connection to weddings and celebrations give it a distinctive place in Algerian musical culture.",
+
+  references: [
+    {
+      text:
+        "Institut du Monde Arabe. Hip-hop, souffle des Aurès et tempo sétifien.",
+      url:
+        "https://www.imarabe.org/fr/agenda/spectacles/hip-hop-souffle-aures-et-tempo-setifien",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Directly discusses Staifi as a musical style associated with Sétif. Explains its combination of Chaoui melodies, Bedouin rhythms and other regional influences, as well as its development and important performers."
+    },
+    {
+      text:
+        "Wilford, S. (2016). Bledi Cockneys: Music, Identity and Mediation in Algerian London. PhD thesis, City, University of London.",
+      url:
+        "https://openaccess.city.ac.uk/id/eprint/17031/",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic research discussing Staifi as a popular musical style rooted in Sétif. Also examines its importance in Algerian musical identity and its circulation among Algerian communities abroad."
+    },
+    {
+      text:
+        "Miliani, H. (2023). Éléments d'histoire sociale de la chanson populaire en Algérie: Textes et contextes. Patrimoines maghrébins, 1(1), 53–78.",
+      url:
+        "https://turath.crasc.dz/en/article/elements-dhistoire-sociale-de-la-chanson-populaire-en-algerie-textes-et-contextes",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Provides historical context for the development of Algerian popular music and its different regional styles. Useful as supporting evidence for understanding Staifi within the wider history of Algerian popular music."
+    },
+    {
+      text:
+        "Benyelles, A. (2006). Modernisation, promotion ou dénaturation du genre. La Tribune.",
+      url:
+        "https://setif.info/article1161.html",
+      kind: "journalistic",
+      verified: true,
+      note:
+        "Discusses the development of Sétif's popular music, including traditional Sraoui influences and the emergence of modern Staifi performers such as Nordine Staifi and Mustapha Allal."
+    },
+    {
+      text:
+        "Boubeker, A. (2010). Annexe: Les sources algériennes. Research report.",
+      url:
+        "https://www.culture.gouv.fr/Media/Thematiques/ethnologie-de-la-france/Files/Rapports-de-recherche/2010/Ethno_Boubeker_2010_535.pdf",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Provides an overview of Algerian musical traditions and identifies Staifi as one of the popular festive musical styles associated with the country."
+    }
+  ]
+},
+
+
+
+
   ] },
   { name: "Angola", genres: [] },
   { name: "Botswana", genres: [] },
