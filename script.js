@@ -35,40 +35,36 @@ function displayGenre(genre) {
 
     card.className = "genre-card";
 
+// Creating a box to hold the two labels
 
-    // Displaying the genre name
+const badges = document.createElement("div");
 
-    const heading = document.createElement("h3");
-
-    heading.textContent = genre.name;
-
-    heading.className = "genre-name";
-
-    card.appendChild(heading);
+badges.className = "badges";
 
 
-    // Displaying the genre type
+// Displaying the genre type
 
-    const type = document.createElement("span");
+const type = document.createElement("span");
 
-    type.className = "badge badge-" + genre.type;
+type.className = "badge badge-" + genre.type;
 
-    type.textContent = genre.type;
+type.textContent = genre.type;
 
-    card.appendChild(type);
-
-
-    // Displaying the origin status
-
-    const status = document.createElement("span");
-
-    status.className = "badge badge-" + genre.originStatus;
-
-    status.textContent = genre.originStatus;
-
-    card.appendChild(status);
+badges.appendChild(type);
 
 
+// Displaying the origin status
+
+const status = document.createElement("span");
+
+status.className = "badge badge-" + genre.originStatus;
+
+status.textContent = genre.originStatus;
+
+badges.appendChild(status);
+
+card.appendChild(badges);
+   
     // Displaying the description
 
     addInformation(card, "Description", genre.description);
