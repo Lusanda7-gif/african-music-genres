@@ -1113,12 +1113,298 @@ const countries = [
     }
   ]
 },
+] },
+  { name: "Angola", genres: [
+    
+{
+  name: "Semba",
+  type: "modern",
+  originStatus: "strong",
 
+  description:
+    "Semba is a popular Angolan musical and dance genre that developed primarily in Luanda and its surrounding urban communities. It is one of the most important expressions of Angola's musical and cultural identity. The genre combines older Angolan musical and dance traditions with urban popular-music arrangements that developed during the twentieth century. Its musical characteristics include lively syncopated rhythms, rhythmic guitar patterns, melodic singing and percussion. Traditional and commonly associated instruments include the guitar, dikanza (a notched wooden scraper), drums and other percussion instruments, while later arrangements incorporated bass guitars, keyboards, accordions and brass instruments. Semba performances are closely connected to dancing, social gatherings, celebrations and community life. Its lyrics frequently explore love, relationships, everyday experiences, social difficulties, humour and Angolan identity. The genre is also recognised for its relationship between music and dance, with couples performing coordinated movements in response to the rhythm. Important musicians and groups associated with its development include Ngola Ritmos, Liceu Vieira Dias, Carlos Lamartine, Elias dia Kimuezo and Bonga. Although Semba incorporates different musical influences and modern arrangements, its distinctive identity comes from the way Angolan musicians transformed local musical traditions into an urban popular-music style. Today, Semba remains an important part of Angola's cultural heritage and continues to influence contemporary Angolan music.",
 
+  origin:
+    "Semba developed within Angolan society, particularly in the urban communities of Luanda during the first half of the twentieth century. Its historical background is connected to older Angolan musical and dance traditions, including massemba, a traditional dance associated with paired dancers and movements involving the bringing together of bodies around the waist or navel. The relationship between the name Semba and massemba is frequently discussed in historical accounts, although the precise development of the terminology and musical relationship requires careful interpretation. During the early twentieth century, migration from rural areas brought people from different Angolan communities into Luanda, where their musical traditions, languages, rhythms and dances came into contact. These cultural interactions contributed to the development of new forms of urban popular music. The musseques, which were working-class urban neighbourhoods, became particularly important centres of musical creativity and cultural exchange. During the 1940s and 1950s, musicians increasingly adapted traditional Angolan melodies and rhythms into new musical arrangements influenced by instruments and harmonic structures associated with international popular music. One of the most influential groups in this development was Ngola Ritmos, led by Liceu Vieira Dias. The group became known for combining traditional Angolan musical material with guitar-based arrangements and other contemporary musical techniques. This approach helped establish a recognisable form of urban Angolan popular music. During the 1960s and early 1970s, Semba became increasingly important within Luanda's musical scene. Nightclubs, musical groups, recording studios and radio stations helped spread the genre, while its songs became closely connected to everyday experiences, social relationships and the growing expression of Angolan cultural identity during the colonial period. Scholars such as Marissa Moorman have documented how Semba contributed to the development of Angolan national consciousness through music, performance and cultural production. Its relationship with Brazilian Samba also became an important subject of historical and musical discussion. Both traditions have connections to the historical movement of African populations across the Atlantic and to shared cultural histories, although their precise musical relationship should not be reduced to a simple claim that one genre directly developed from the other. Over time, Semba incorporated additional instruments, arrangements and influences while maintaining its connection to Angolan rhythms, dance and social life. Following independence in 1975, the genre continued to develop as an important expression of national culture. Its originality lies in the way Angolan musicians transformed local musical and dance traditions into a distinctive urban popular-music genre through cultural interaction, musical experimentation and the experiences of Angolan communities. Although Semba shares historical and musical connections with other Lusophone and African musical traditions, its development, repertoire, performance practices and cultural identity are strongly rooted in Angola.",
 
+  classification:
+    "Modern Angolan urban popular-music and dance genre originating primarily in Luanda. It developed through the adaptation of traditional Angolan musical and dance practices into contemporary popular-music arrangements, particularly during the twentieth century. It is characterised by syncopated rhythms, rhythmic guitar patterns, melodic singing, percussion and coordinated partner dancing. Its development within Angolan urban communities and its historical association with Angolan cultural identity establish it as a distinctive national musical genre.",
+
+  references: [
+    {
+      text:
+        "Moorman, M. J. (2008). Intonations: A Social History of Music and Nation in Luanda, Angola, from 1945 to Recent Times. Athens: Ohio University Press.",
+      url:
+        "https://www.si.edu/object/siris_sil_967142",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic historical study examining the development of Semba in Luanda, the influence of urban communities, the musical contributions of Ngola Ritmos and the relationship between popular music and Angolan cultural and national identity."
+    },
+    {
+      text:
+        "Gomes, P. D. (2024). Tradition and Modernity in the History of Pop-Rock and Semba: Unravelling Urban Life and Cultural Boundaries in Colonial Luanda's Music Scene. E-Journal of Portuguese History, 22(2), 206-233.",
+      url:
+        "https://doi.org/10.1163/16456432-bja10009",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Peer-reviewed historical research using written, visual and oral archives to examine the emergence and popularisation of Semba in colonial Luanda. Particularly useful for understanding the relationship between traditional musical practices, urban culture and the development of Angolan popular music."
+    },
+    {
+      text:
+        "Baratti, N. (2022). Semba Dilema: On Transatlantic Musical Flows between Angola and Brazil. Archiv für Textmusikforschung, 7(2).",
+      url:
+        "https://doi.org/10.15203/ATeM_2022_2.03",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Scholarly journal article examining the historical and contemporary relationships between Angolan Semba and Brazilian Samba. Uses historical research and ethnographic material collected in Luanda to explore transatlantic musical connections and questions surrounding the origins and cultural identities of the two genres."
+    }
+  ]
+},
+
+{
+  name: "Kizomba",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Kizomba is an Angolan musical and dance genre that developed during the late twentieth century, particularly in Luanda. Its development is closely connected to Semba and other local Angolan musical and dance traditions, alongside influences from Caribbean Zouk. The music is recognised for its slower rhythms, smooth melodies, repetitive musical patterns and expressive singing. Its arrangements commonly feature electronic keyboards, synthesised sounds, bass guitar, percussion and programmed rhythms. The lyrics frequently explore love, relationships, emotions, longing and everyday experiences. Kizomba is also strongly associated with a distinctive partner dance characterised by close connection, coordinated movements, controlled steps and smooth movements across the dance floor. Important musicians associated with its development include Eduardo Paim, Paulo Flores and other Angolan popular-music performers. Although Caribbean Zouk influenced its musical development, Kizomba became a distinctive Angolan genre through the adaptation of international musical elements to local rhythms, musical practices and cultural experiences. Today, it is internationally recognised as an important expression of Angolan musical and dance heritage.",
+
+  origin:
+    "Kizomba developed in Angola during the late 1970s and became increasingly popular during the 1980s, particularly in Luanda. Its development was closely connected to the existing Angolan popular-music scene, especially Semba, which had already established itself as an important musical and dance tradition. Angolan musicians began experimenting with new musical arrangements and sounds while maintaining connections to local rhythms and social dancing practices. During the late 1970s and early 1980s, Caribbean Zouk, particularly music associated with the French Antilles, became increasingly popular in Portuguese-speaking African countries. Its synthesised melodies, electronic instrumentation and rhythmic arrangements influenced musicians in Angola who began incorporating these elements into their own compositions. One important figure associated with this development was Eduardo Paim, who contributed to the emergence and popularisation of modern Kizomba through his musical work. The popularity of Caribbean Zouk increased further following the French Antillean group Kassav's tour of Angola in 1984. However, Kizomba was not simply an imported Caribbean genre. Angolan musicians adapted these influences through their existing musical traditions, creating a distinctive sound connected to local musical tastes and social life. During the 1980s, this music became increasingly popular in Luanda's urban communities, particularly among younger generations. The name Kizomba comes from Kimbundu, a language historically spoken in the Luanda region, where the word refers to a party, celebration or social gathering. The name reflects the importance of communal celebration and dancing within Angolan cultural life. The development of Kizomba as a musical genre was also connected to the development of its associated partner dance. The dance drew on existing Angolan social-dancing practices, particularly Semba, and developed a distinctive style characterised by close partner connection, smooth movements and coordinated steps. Traditional Angolan dances such as Rebita and older massemba practices are also discussed in research examining the historical background of Angolan partner dancing, although their precise influence on modern Kizomba should not be treated as fully established. During the 1990s and following decades, Angolan musicians and dancers living abroad helped spread the genre, particularly through Portugal, where it gradually became popular in dance schools, festivals and international music communities. Its international popularity also led to the development of new interpretations and dance styles that sometimes differ from the ways Kizomba is practised in Angola. Research by Federica Toldo highlights the importance of preserving the distinction between Angolan social dancing and the internationally commercialised versions of Kizomba. Similarly, research by Livia Jiménez Sedano demonstrates that its international development involved cultural connections between Angola, Cape Verde, Portugal and other communities rather than a simple movement of music from one country to another. Its originality lies in the way Angolan musicians and dancers transformed local musical and social traditions through the selective incorporation of Caribbean influences, creating a distinctive musical and dance practice. Although Kizomba developed through international cultural exchange, its historical development, cultural vocabulary, musical identity and association with Angolan social life establish its strong connection to Angola.",
+
+  classification:
+    "Modern Angolan musical and partner-dance genre that developed primarily in Luanda during the late twentieth century. It emerged through the interaction of local Angolan musical and dance traditions, particularly Semba, with influences from Caribbean Zouk. It is characterised by slower rhythmic patterns, melodic singing, electronic arrangements and a distinctive partner dance involving close connection and coordinated movements. Its development within Angolan society gives it a strong national cultural identity, despite its international musical influences.",
+
+  references: [
+    {
+      text:
+        "Toldo, F. (2016). Ver a «emoção». A kizomba de Angola para o mundo. Mulemba – Revista Angolana de Ciências Sociais, 6(12), 145–178.",
+      url:
+        "https://doi.org/10.4000/mulemba.951",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic ethnographic research examining Kizomba as an Angolan partner dance. Discusses its relationship with Semba, Rebita and Zouk, its distinctive dance characteristics and the transformations that occurred during its international diffusion."
+    },
+    {
+      text:
+        "Jiménez Sedano, L. (2019). From Angola to the world, from the world to Lisbon and Paris: How structural inequalities shaped the global kizomba dance industry. Poetics, 75, Article 101360.",
+      url:
+        "https://doi.org/10.1016/j.poetic.2019.04.001",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Peer-reviewed research examining the development and internationalisation of Kizomba. Discusses the influence of Caribbean Zouk, Portuguese-speaking African communities and the role of migration in the international circulation of the genre."
+    },
+    {
+      text:
+        "Jiménez Sedano, L. (2020). Kizomba beyond Angolan-ness and Lusofonia: The transnational dance floor. Atlantic Studies, 17(1), 91–109.",
+      url:
+        "https://doi.org/10.1080/14788810.2019.1696081",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Peer-reviewed research examining the transnational development of Kizomba and its connections with Angola, Cape Verde, Portugal and other communities. Provides important historical context for understanding cultural exchange and debates surrounding the genre's origins."
+    }
+  ]
+},
+
+{
+  name: "Kuduro",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Kuduro is an Angolan electronic music and dance genre that developed in Luanda during the early 1990s. It is recognised for its fast electronic beats, energetic rhythms, synthesised sounds and expressive vocals. Its musical influences include Semba, Congolese and Caribbean dance music, House, Techno and Hip-hop. Music is mainly produced electronically using computers, keyboards and digital sound technology. Performances are characterised by energetic individual dancing, acrobatic movements and expressive body gestures. Lyrics frequently explore everyday life, humour, relationships, social conditions and urban identity, often incorporating Angolan Portuguese and local expressions. Important performers include Tony Amado, Sebem and Dog Murras. Kuduro became an important expression of Angolan youth culture and continues to influence electronic dance music internationally.",
+
+  origin:
+    "Kuduro originated in Luanda, Angola, during the early 1990s. It developed within urban youth communities, particularly in the musseques, where musicians, DJs and dancers experimented with electronic music and new dance movements. Its development was influenced by Angolan Semba, Congolese music, Caribbean Soca and Zouk, as well as American House, Techno and Hip-hop. The genre combined these influences with local rhythms, vocal expressions and urban dance practices. Tony Amado is widely associated with its early development, particularly its distinctive dance style. As computer technology and music-production software became more accessible, young Angolan musicians began producing electronic beats and recordings in independent and informal studios. Performers such as Sebem and Dog Murras helped popularise Kuduro through recordings, performances and local music networks. The genre became an important form of expression for young people in Luanda, reflecting their experiences, creativity and social realities. Its originality lies in the combination of electronic music production, Angolan urban culture, distinctive dance movements and local vocal expressions. Although it incorporates international musical influences, Kuduro developed its own recognisable identity within Angola.",
+
+  classification:
+    "Modern Angolan electronic dance-music genre originating in Luanda during the early 1990s. It combines electronic production, fast rhythms, expressive vocals and energetic individual dancing. Its development within Angolan urban youth communities gives it a distinctive national musical and cultural identity.",
+
+  references: [
+    {
+      text:
+        "Moorman, M. J. (2014). Anatomy of Kuduro: Articulating the Angolan Body Politic after the War. African Studies Review.",
+      url:
+        "https://doi.org/10.1017/asr.2014.29",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Kuduro's historical development, dance practices, youth culture and relationship with post-war Angolan society."
+    },
+    {
+      text:
+        "Sheridan, G. (2014). Fruity Batidas: The Technologies and Aesthetics of Kuduro. Dancecult: Journal of Electronic Dance Music Culture, 6(1), 83-96.",
+      url:
+        "https://doi.org/10.12801/1947-5403.2014.06.01.05",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Investigates the development of Kuduro through electronic music technology, studio production, musical experimentation and dance practices in Angola."
+    },
+    {
+      text:
+        "Alisch, S. (2021). I opened the door to develop kuduro at JUPSON: Music Studios as Spaces of Collective Creativity in the Context of Electronic Dance Music in Angola. Contemporary Music Review, 39(6), 663-683.",
+      url:
+        "https://doi.org/10.1080/07494467.2020.1863004",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines music studios in Luanda and the collective creativity of Kuduro musicians, DJs and producers, including local vocal traditions and production practices."
+    }
+  ]
+},
+
+{
+  name: "Rebita",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Rebita is a traditional Angolan musical and partner-dance genre particularly associated with Luanda. It combines African dance movements and local musical traditions with elements of European ballroom dancing. Its performances feature couples dancing in a large circle while following coordinated movements directed by a dance leader. Traditional instruments include the accordion, dikanza (wooden scraper), drums and other percussion. The dance is also recognised for its distinctive clothing, with women traditionally wearing elaborate bessangana dresses and men wearing formal suits. Rebita was particularly popular during the nineteenth and twentieth centuries and remains an important part of Angola's cultural heritage.",
+
+  origin:
+    "Rebita developed within the historical urban culture of Luanda, with roots in older Angolan partner-dance traditions, particularly Massemba. Its development involved interactions between African communities and European ballroom-dancing practices during the colonial period. The dance gradually incorporated elements of quadrille and salon dancing while maintaining African movements, including the umbigada, a characteristic movement involving the bringing together of dancers around the waist or abdomen. During the nineteenth and twentieth centuries, Rebita became popular in Luanda's social gatherings, dance clubs and community celebrations. Its performances were characterised by circular formations, coordinated partner movements, accordion music and traditional clothing. Women commonly wore elaborate bessangana dresses, while men wore European-style suits. Over time, Rebita became an important expression of Luanda's urban cultural identity and influenced the development of other Angolan musical and dance traditions, including Semba. Its originality lies in the adaptation of African dance practices and local cultural expressions into a distinctive Angolan social-dance tradition. In 2019, the Angolan government officially recognised Rebita as National Intangible Cultural Heritage.",
+
+  classification:
+    "Traditional Angolan musical and partner-dance genre associated primarily with Luanda. It combines African dance movements, particularly the umbigada, with elements of European ballroom and quadrille traditions. Its circular formations, coordinated movements, distinctive clothing and local musical practices establish it as an important part of Angola's cultural heritage.",
+
+  references: [
+    {
+      text:
+        "Moorman, M. J. (2008). Intonations: A Social History of Music and Nation in Luanda, Angola, from 1945 to Recent Times. Athens: Ohio University Press.",
+      url:
+        "https://ohiostatepress.org/books/titles/9780821418578.html",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic historical research providing context on Rebita, traditional clothing, dance practices and the interaction between African and European cultural influences in Luanda."
+    },
+    {
+      text:
+        "Marzano, A. (2016). Nossa dança, nossos pais, nossos filhos: Apontamentos para uma História Social do Carnaval Luandense. Tempo, 22(40).",
+      url:
+        "https://doi.org/10.20509/TEM-1980-542X2016v224002",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the historical development of Luanda's dances and carnival traditions, providing context for the social and cultural environment in which Rebita developed."
+    },
+    {
+      text:
+        "República de Angola (2019). Decreto Executivo n.º 108/19 de 11 de abril.",
+      url:
+        "https://lex.ao/docs/ministerio-da-cultura/2019/decreto-executivo-n-o-108-19-de-11-de-abril/",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Official government decree classifying Rebita music and dance as National Intangible Cultural Heritage and establishing its preservation as a cultural priority."
+    }
+  ]
+},
+
+{
+  name: "Kazukuta",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Kazukuta is a traditional Angolan dance and rhythmic performance style particularly associated with Luanda's carnival culture. It is recognised for its coordinated group movements, rhythmic stepping and energetic choreography. Performances are accompanied by percussion and group singing or chanting. The dance is commonly practised during carnival celebrations and community gatherings. Its distinctive character comes from the combination of collective choreography, rhythmic music and Angolan cultural expression. Kazukuta is also historically important because its rhythms contributed to the development of Semba, particularly Semba Kazukuta.",
+
+  origin:
+    "Kazukuta developed within Angola's traditional dance and carnival culture, particularly in Luanda. It became associated with organised dance groups and public celebrations, where music and coordinated movements formed an important part of community identity. Traditional performances use percussion, singing and rhythmic group choreography. Its musical characteristics also influenced the development of Angolan popular music, particularly Semba Kazukuta, which incorporates rhythmic elements associated with the traditional dance. Over time, Kazukuta remained an important part of Luanda's carnival celebrations and traditional dance performances. Its originality lies in its connection to Angolan community traditions, collective dancing and local rhythmic practices. Today, it remains an important expression of Angola's traditional performing arts and cultural heritage.",
+
+  classification:
+    "Traditional Angolan dance and rhythmic performance style associated particularly with Luanda. It combines percussion, singing and coordinated group choreography and is strongly connected to carnival celebrations and community traditions. Its influence on Semba Kazukuta further demonstrates its importance within Angolan musical heritage.",
+
+  references: [
+    {
+      text:
+        "Baratti, N. (2020). Between Genre and Generations: Analyzing Angolan Popular Music. Etnografie Sonore / Sound Ethnographies, III(2).",
+      url:
+        "https://www.soundethnographies.it/wp-content/uploads/2022/02/03-BARATTI.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Angolan popular music and identifies Kazukuta as an important rhythmic influence in the development of Semba Kazukuta."
+    },
+    {
+      text:
+        "Marzano, A. (2017). Nossa dança, nossos pais, nossos filhos: Apontamentos para uma História Social do Carnaval Luandense. TEL: Tempo, Espaço e Linguagem, 7(2), 67-88.",
+      url:
+        "https://doi.org/10.5935/2177-6644.20160018",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the historical development of Luanda's carnival dances and their relationship with Angola's social and cultural history."
+    },
+    {
+      text:
+        "UNCTAD (2023). Mapping the Cultural and Creative Industries in Angola. United Nations Conference on Trade and Development.",
+      url:
+        "https://unctad.org/system/files/official-document/ditctsce2023d2_en.pdf",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Documents Kazukuta as an Angolan traditional dance and discusses its preservation through traditional dance groups and carnival performances."
+    }
+  ]
+},
+
+{
+  name: "Tarraxinha",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Tarraxinha is an Angolan electronic music and partner-dance style that emerged in Luanda during the 1990s. It developed from the musical environment surrounding Kizomba and is recognised for its slow rhythms, heavy bass beats and repetitive electronic sounds. Its production commonly uses synthesised sounds, electronic percussion and minimal melodic arrangements. The associated dance involves close partner connection, controlled hip movements and relatively limited movement across the dance floor. DJ Znobia is particularly associated with the development of its electronic sound. Today, Tarraxinha remains an identifiable part of Angola's contemporary dance-music culture.",
+
+  origin:
+    "Tarraxinha emerged in Luanda during the 1990s through the development of Angolan electronic dance music and the influence of Kizomba. Musicians and producers began experimenting with slower rhythms, heavier bass sounds and repetitive electronic arrangements, creating a style with a different musical character from traditional Kizomba. DJ Znobia is widely associated with the development of electronic Tarraxo and Tarraxinha. The style became connected to Angolan urban youth culture and social partner dancing. Its associated dance developed around close partner connection and controlled body movements. Over time, Tarraxinha became recognised as a distinct musical and dance expression within Angola's contemporary popular music. Its originality lies in its transformation of Kizomba-related musical influences into a slower, bass-focused electronic style with its own dancing characteristics. Although closely connected to Kizomba, Tarraxinha developed a recognisable identity within Angola.",
+
+  classification:
+    "Modern Angolan electronic dance-music and partner-dance style originating in Luanda during the 1990s. It developed through the influence of Kizomba and electronic music experimentation. It is characterised by slow rhythms, heavy bass, repetitive synthesised sounds and close partner dancing. Its association with Angolan urban music culture establishes its strong connection to Angola.",
+
+  references: [
+    {
+      text:
+        "Raposo, O. (2026). A batida do gueto: música e diáspora nas periferias de Lisboa. Horizontes Antropológicos, 32(74).",
+      url:
+        "https://doi.org/10.1590/1806-9983e0740603",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Peer-reviewed anthropological research identifying Tarraxinha as a slower musical genre inspired by Angolan Kizomba and emerging in Luanda during the 1990s."
+    },
+    {
+      text:
+        "MAAT (2020). KUDURO-AXIS: Luanda, Lisbon & Beyond.",
+      url:
+        "https://maat.pt/en/event/kuduro-axis",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Institutional documentation identifying DJ Znobia as a major figure in the development of electronic Tarraxo and Tarraxinha."
+    },
+    {
+      text:
+        "Simões, C. J. S. (2016). Identidades e Trajetórias dos Professores de Dança Kizomba. Master's dissertation, Universidade do Algarve.",
+      url:
+        "https://sapientia.ualg.pt/server/api/core/bitstreams/b0ab7be4-9f08-4f3e-aef1-abb1eb9ddf87/content",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "University research examining social partner dances, including distinctions between Kizomba and Tarraxinha. Provides supporting context for the dance characteristics and cultural practices."
+    }
+  ]
+},
 
   ] },
-  { name: "Angola", genres: [] },
   { name: "Botswana", genres: [] },
   { name: "Zimbabwe", genres: [] },
   { name: "Zambia", genres: [] }
