@@ -1405,8 +1405,562 @@ const countries = [
 },
 
   ] },
-  { name: "Botswana", genres: [] },
-  { name: "Zimbabwe", genres: [] },
-  { name: "Zambia", genres: [] }
+  { name: "Botswana", genres: [
+    
+{
+  name: "Borankana",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Borankana is a traditional Botswana song-and-dance style associated with Tswana communities. It is recognised for energetic dancing, rhythmic foot movements, singing, hand clapping and ululation. Traditionally, men and boys perform much of the dancing, while women contribute through singing, clapping and vocal expressions. The tradition is associated with entertainment and community activities. Its performances preserve local musical practices and cultural knowledge through participation and oral transmission. Borankana is also recognised as an important expression of Botswana's traditional performing arts.",
+
+  origin:
+    "Borankana developed within Botswana's traditional community and cultural practices. Research by Otukile Phibion documents its performance and transmission among the Bakwena of the Kweneng District. Traditionally, it was performed during tribal activities and community gatherings, serving mainly as entertainment. Men and boys generally performed the energetic dance movements, while women supported the performances through singing, hand clapping and ululation. Its development and preservation relied heavily on oral transmission, with musical knowledge passed between generations through observation and participation. Over time, Borankana also became part of wider cultural celebrations and traditional performances. Its originality lies in its collective performance practices, distinctive dancing and the relationship between movement, singing and community participation. Although regional variations and differences in terminology exist, Borankana remains an important part of Botswana's traditional musical heritage.",
+
+  classification:
+    "Traditional Botswana song-and-dance style associated with Tswana communities, particularly the Bakwena. It combines energetic dancing, rhythmic foot movements, singing, hand clapping and ululation. Its community-based performance and oral transmission establish it as an important part of Botswana's traditional cultural heritage.",
+
+  references: [
+    {
+      text:
+        "Phibion, O. S. (2012). Borankana (Phathisi) Music Performance, Learning and Transmission among the Bakwena of Botswana. International Journal of Scientific Research in Education, 5(1), 12-17.",
+      url:
+        "http://hdl.handle.net/10311/1064",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Ethnomusicological research based on community interviews and practical observations. Examines Borankana among the Bakwena, including its historical functions, dancing, singing, hand clapping and transmission between generations."
+    },
+    {
+      text:
+        "Franke, V. M. (2012). Performance Practice of Indigenous Song and Dance Music of Botswana: The Case of Borankana, Mokomoto and Setapa. Musicus, 40(2).",
+      url:
+        "https://hdl.handle.net/10520/EJC149312",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic research examining the musical characteristics, origins, instrumentation, dance movements, singing styles and social functions of three Botswana indigenous dance traditions, including Borankana."
+    },
+    {
+      text:
+        "Rapoo, C. (2016). Performance and the Economies of Cultural Heritage Festivals in Botswana: Cashing In or Selling Out? Botswana Notes and Records, 48.",
+      url:
+        "https://journals.ub.bw/index.php/bnr/article/view/880/505",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "University of Botswana research identifying Borankana as a youth entertainment rhythmic dance and discussing its role in Botswana's cultural identity and heritage performances."
+    }
+  ]
+},
+
+{
+  name: "Setapa",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Setapa is a traditional Botswana musical and dance style originating among the Bangwaketse communities of the Southern District. It is recognised for coordinated group dancing, energetic foot stamping, singing and rhythmic movements. Traditionally, men performed the main dance movements while women accompanied them through singing, hand clapping and ululation. Musical accompaniment includes whistles and rhythmic sounds produced by traditional leg coverings and rattles. Setapa was traditionally performed during agricultural activities, harvest celebrations, weddings and community gatherings. Its name is derived from the Setswana expression 'go tapa tapa', referring to stamping the feet.",
+
+  origin:
+    "Setapa developed among the Bangwaketse communities of southern Botswana and is believed to have been practised by their ancestors for generations. Its historical development was closely connected to agricultural activities, particularly ploughing and harvesting seasons, when communities gathered to celebrate and socialise. Performances traditionally involved men dancing through coordinated foot stamping and rhythmic movements, while women provided singing, hand clapping and ululation. Different regional variations developed, including Setapa sa dipitse, Setapa sa phathisi and Setapa sa go goga maoto. These variations demonstrate historical cultural exchanges with neighbouring Bakwena and Basarwa communities. Its originality lies in its distinctive foot-stamping movements, vocal performances and connection to Bangwaketse community life. The tradition continues through cultural groups and oral transmission.",
+
+  classification:
+    "Traditional Botswana song-and-dance genre originating among the Bangwaketse of the Southern District. It combines rhythmic foot stamping, coordinated group dancing, singing, hand clapping and traditional percussion. Its distinctive performance practices and strong connection to Bangwaketse cultural identity establish it as an important part of Botswana's musical heritage.",
+
+  references: [
+    {
+      text:
+        "Phibion, O. S. (2012). Bangwaketse of Botswana Setapa Traditional Music Practices. International Review of Social Sciences and Humanities, 4(1), 1-11.",
+      url:
+        "https://www.irssh.com/yahoo_site_admin/assets/docs/1_IRSSH-197-V4N1.321101612.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Direct ethnomusicological research examining Setapa among the Bangwaketse, including its origins, meaning, social functions, regional variations, costumes, singing and dance practices."
+    },
+    {
+      text:
+        "Franke, V. M. (2012). Performance Practice of Indigenous Song and Dance Music of Botswana: The Case of Borankana, Mokomoto and Setapa. Musicus, 40(2).",
+      url:
+        "https://hdl.handle.net/10520/EJC149312",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines the musical characteristics, origins, instrumentation, dance movements, singing styles and transmission of Setapa alongside other indigenous Botswana dance traditions."
+    },
+    {
+      text:
+        "Simako, J. J. (2009). The Development of Learning Activities for Teaching Music Using Indigenous Tswana Children's Songs in Botswana Primary Schools: Principles and Practice. Master's dissertation, University of KwaZulu-Natal.",
+      url:
+        "https://researchspace.ukzn.ac.za/server/api/core/bitstreams/004a8708-74a8-494b-8fae-3c970958af56/content",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Provides supporting historical and cultural context on Tswana musical traditions and identifies Setapa as a dance originating among the Bangwaketse."
+    }
+  ]
+},
+
+{
+  name: "Tsutsube",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Tsutsube is a traditional song-and-dance practice associated with San (Basarwa) communities in Botswana, particularly in the Ghanzi and Kgalagadi regions. It combines rhythmic dancing, repetitive singing, chanting, hand clapping and expressive movements. Some performances are associated with healing rituals, trance experiences, initiation ceremonies and community celebrations. Its musical practices are transmitted through participation and oral tradition. Tsutsube is an important expression of San cultural heritage, although its meaning and classification differ between communities.",
+
+  origin:
+    "Tsutsube is associated with the traditional musical and ritual practices of San communities in Botswana. Research by Phibion and Khudu-Petersen (2016) documents its performance in different ritual contexts, including boys' first hunting achievements, girls' puberty, marriage and healing ceremonies. These performances combine singing, clapping, dancing and spiritual practices. However, recent ethnographic research by Leïla Baracchini (2026) demonstrates that the term Tsutsube has a complicated history. It became increasingly institutionalised through school dance competitions and Botswana's national cultural competitions, eventually being used as a general category for different San songs and dances. Among Naro communities in Ghanzi, traditional healing dances are commonly known as xgoè. The originality of these practices lies in their relationship between music, healing, storytelling, collective participation and San spiritual beliefs. Their historical development is rooted in San communities, although the modern classification of Tsutsube does not necessarily represent the terminology or traditions of every community.",
+
+  classification:
+    "Traditional Botswana song-and-dance practice associated with San communities, particularly in the Ghanzi and Kgalagadi regions. It includes rhythmic dancing, singing, hand clapping and, in certain contexts, spiritual healing and trance practices. Its musical and ritual characteristics are rooted in San cultural traditions, although the term Tsutsube is a broader classification that does not necessarily reflect the original terminology of every San community.",
+
+  references: [
+    {
+      text:
+        "Phibion, O. S. and Khudu-Petersen, K. (2016). Tsutsube Music as Practised by the Basarwa (San) of Botswana. Muziki, 13(1), 1-10.",
+      url:
+        "https://doi.org/10.1080/18125980.2016.1182377",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Peer-reviewed ethnomusicological research examining Tsutsube music among San communities, including its ritual contexts, singing, dancing and spiritual significance."
+    },
+    {
+      text:
+        "Baracchini, L. (2026). That Name Has Lost Our Culture: National Arts Competitions and Cultural Dispossession - The Tsutsube in Botswana. Journal of African Cultural Studies, 38(1), 36-53.",
+      url:
+        "https://doi.org/10.1080/13696815.2025.2566630",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Recent ethnographic research based on fieldwork among Naro communities in Ghanzi District. Examines the institutionalisation of the Tsutsube category, local terminology, cultural ownership and the transformation of San dance practices."
+    }
+  ]
+},
+
+{
+  name: "Dikgafela",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Dikgafela is a traditional Botswana harvest thanksgiving ceremony associated with Setswana-speaking communities. It combines traditional singing, dancing, poetry and ceremonial processions to celebrate successful harvests and request rain for the next agricultural season. Women traditionally carry baskets of harvested grain and pots of traditional beer while singing and performing ululations. Men accompany the processions, sometimes carrying branches of the sacred Moologa tree. The harvest is presented to the Kgosi (chief), symbolising gratitude, community responsibility and respect for the ancestors. Dikgafela is an important expression of Botswana's agricultural, spiritual and cultural heritage.",
+
+  origin:
+    "Dikgafela developed within traditional Setswana agricultural and spiritual practices. Historically, communities organised the ceremony after successful harvests to express gratitude to the ancestors and request sufficient rainfall for the next planting season. Harvested grain, particularly sorghum, was presented to the Kgosi, who traditionally oversaw its storage and distribution during periods of food shortage. Women prepared traditional beer and performed harvest songs, while community members participated in processions, dancing and ceremonial offerings. The pouring of beer onto the ground also carries spiritual significance, with interpretations connecting the practice to honouring ancestors and acknowledging the relationship between people and the land. Different communities maintain their own variations of the ceremony. Its originality lies in the integration of music, agricultural knowledge, spirituality and collective responsibility within Setswana society. Today, Dikgafela remains an important expression of Botswana's cultural heritage.",
+
+  classification:
+    "Traditional Botswana harvest ceremony incorporating music, singing, dancing and ritual performances. Associated with Setswana agricultural and spiritual traditions, it combines thanksgiving for successful harvests, ancestral recognition and prayers for future rainfall. Its ceremonial songs, processions and community participation make it an important part of Botswana's intangible cultural heritage.",
+
+  references: [
+    {
+      text:
+        "Molato, K. (2020). The Role of Rainmakers in Awakening Environmental Consciousness: A Postcolonial Ecocritical Analysis. In: Mother Earth, Mother Africa and African Indigenous Religions. African Sun Media.",
+      url:
+        "https://doi.org/10.18820/9781928480730",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Peer-reviewed academic book chapter discussing Setswana agricultural rites, including Dikgafela, ancestral thanksgiving, rainmaking, traditional beer and the relationship between communities and the environment."
+    },
+    {
+      text:
+        "Denbow, J. and Thebe, P. C. (2006). Culture and Customs of Botswana. Greenwood Press.",
+      url:
+        "https://sahistory.org.za/sites/default/files/archive-files/james_denbow_phenyo_c._thebe_culture_and_custombook4you.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book documenting Botswana's cultural practices, including Dikgafela harvest ceremonies, grain offerings to traditional leaders, ancestral thanksgiving and communal food distribution."
+    },
+    {
+      text:
+        "Botswana Daily News (2023). Batlokwa Celebrate Dikgafela.",
+      url:
+        "https://dailynews.gov.bw/news-detail/73636",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Official report documenting the Batlokwa harvest ceremony, including traditional singing, harvest offerings, ceremonial processions and requests for future rainfall."
+    }
+  ]
+},
+
+{
+  name: "Kwasa kwasa (Botswana style)",
+  type: "modern",
+  originStatus: "shared",
+
+  description:
+    "Kwasa kwasa is a popular dance-music style that became established in Botswana through the influence of Congolese rumba and soukous. It is recognised for its lively rhythms, melodic electric guitars, bass lines and energetic dancing. Its performances commonly feature guitar solos, keyboards, drums and expressive vocals. In Botswana, the style developed a local identity through musicians such as Franco Lesokwane, Chris Manto 7, Les Africa Sounds and Jeff Matheatau. It became particularly popular during the 1990s and remains an important part of Botswana's popular music history.",
+
+  origin:
+    "Kwasa kwasa originated in the Democratic Republic of Congo during the development of modern soukous and rumba music. It spread across Africa through recordings, touring musicians and regional cultural exchange. In Botswana, the style became popular during the late twentieth century, particularly during the 1990s. Local musicians adapted its Congolese guitar arrangements and dance rhythms to Botswana's popular music environment. Artists including Franco Lesokwane, Chris Manto 7, Alfredo Mos and Jeff Matheatau helped establish its local identity. Its originality lies in this adaptation of Congolese musical influences into a recognisable Botswana popular-music scene. A further development was Kwaito-kwasa, a local fusion combining Kwasa kwasa with South African-influenced Kwaito. Although its historical origins are outside Botswana, its local performers and musical adaptations make it an important part of the country's popular music heritage.",
+
+  classification:
+    "Modern popular dance-music style with shared Congolese and Botswana cultural influences. Originally developed from Congolese soukous and rumba, it became established in Botswana through local musicians, performances and adaptations. Its combination of melodic guitar arrangements, dance rhythms and local popular-music influences gives it a recognised place in Botswana's musical history.",
+
+  references: [
+    {
+      text:
+        "Denbow, J. and Thebe, P. C. (2006). Culture and Customs of Botswana. Greenwood Press.",
+      url:
+        "https://sahistory.org.za/sites/default/files/archive-files/james_denbow_phenyo_c._thebe_culture_and_custombook4you.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book documenting the Congolese origins of Kwasa kwasa, its musical characteristics and its development among Botswana musicians."
+    },
+    {
+      text:
+        "Music In Africa (2018). Popular Music in Botswana.",
+      url:
+        "https://musicinafrica.net/node/68351",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Documents the development of Kwasa kwasa in Botswana and identifies local musicians who adapted the Congolese style."
+    },
+    {
+      text:
+        "Botswana Daily News (2017). Dance Doctor Rejuvenates Kwasa Kwasa Dance.",
+      url:
+        "https://dailynews.gov.bw/news-detail/33357",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Official reporting on the popularity of Kwasa kwasa dancing in Botswana, including the contribution of local dancer Emmanuel Mosweu."
+    },
+    {
+      text:
+        "Botswana Daily News (2022). Alliance Française Hosts Celebrated Rhumba Stars.",
+      url:
+        "https://dailynews.gov.bw/news-detail/66071",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Documents the local Kwasa kwasa and Rhumba music scene and the contributions of Botswana-based performers."
+    }
+  ]
+},
+
+{
+  name: "Botswana traditional jazz",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Botswana jazz is a modern musical tradition that developed through the interaction of international jazz and local Tswana musical influences. It is characterised by improvisation, melodic arrangements and instruments such as saxophones, trumpets, guitars, keyboards, bass and drums. Some musicians incorporate Setswana lyrics, traditional melodies and local cultural themes into jazz compositions. Important performers include Bonjo Keipidile, Socca Moruakgomo, Shanti Lo, Punah Gabasiane and Lister Boleseng. The genre became particularly influential during the late twentieth century through live bands, jazz clubs and cultural performances.",
+
+  origin:
+    "Jazz developed in Botswana through international musical influences, particularly American jazz and South African jazz traditions. During the late 1970s and early 1980s, South African musicians living in exile helped strengthen the local jazz scene. Jonas Gwangwa established the Shakawe band, while Hugh Masekela formed Kalahari, both involving Botswana musicians. Local performers such as Bonjo Keipidile and John Selolwane contributed to the development of a distinctive musical identity. An important example of cultural adaptation is Gwangwa's composition Batsumi, which incorporated lyrics from George Swabi's traditional Tswana folk song Bagammangwato into a jazz arrangement. Jazz clubs also developed in Orapa and Francistown from 1979 onwards, later spreading to Gaborone. Its originality lies in the incorporation of local Tswana musical traditions, languages and cultural themes into international jazz influences. Today, Botswana jazz remains an important part of the country's contemporary musical identity.",
+
+  classification:
+    "Modern Botswana jazz tradition combining international jazz influences with local Tswana musical elements. It features improvisation, instrumental arrangements and, in some performances, Setswana lyrics and traditional melodies. Its development through local musicians, cultural adaptations and live performance gives it a strong connection to Botswana's musical identity.",
+
+  references: [
+    {
+      text:
+        "Denbow, J. and Thebe, P. C. (2006). Culture and Customs of Botswana. Greenwood Press.",
+      url:
+        "https://sahistory.org.za/sites/default/files/archive-files/james_denbow_phenyo_c._thebe_culture_and_custombook4you.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book documenting Botswana's jazz musicians, jazz culture and the development of contemporary music. Includes information about Socca Moruakgomo and Punah Gabasiane."
+    },
+    {
+      text:
+        "Paice, J. (2020). Jazz in Botswana. World of Jazz.",
+      url:
+        "https://worldofjazz.org/jazz-in-botswana/",
+      kind: "research",
+      verified: true,
+      note:
+        "Historical account of Botswana's jazz scene, including the Medu Arts Ensemble, Shakawe, Kalahari and the contributions of local and South African musicians."
+    },
+    {
+      text:
+        "Botswana Daily News (2021). Gwangwa Bows Out, Leaves Mark.",
+      url:
+        "https://dailynews.gov.bw/news-detail/60622",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Documents Jonas Gwangwa's musical contribution in Botswana and his adaptation of George Swabi's traditional Tswana folk song Bagammangwato into the jazz composition Batsumi."
+    },
+    {
+      text:
+        "Sunday Standard (2017). The Late Soares Katumbela Pioneered Sunday Jazz.",
+      url:
+        "https://www.sundaystandard.info/the-late-soares-katumbela-pioneered-sunday-jazz/",
+      kind: "journalistic",
+      verified: true,
+      note:
+        "Provides historical information about the establishment of Orapa and Francistown jazz clubs, the development of Sunday jazz and the growth of Botswana's live jazz scene."
+    }
+  ]
+},
+
+  ] },
+  { name: "Zimbabwe", genres: [
+
+  ] },
+  { name: "Zambia", genres: [
+    
+{
+  name: "Zamrock",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Zamrock is a Zambian rock-music genre that emerged in the early 1970s, particularly in Lusaka and the Copperbelt mining towns. It combines psychedelic rock, garage rock, hard rock, blues and funk with Zambian rhythms, melodies and local languages. Its sound is characterised by electric guitars, bass, drums, keyboards and expressive vocals. Lyrics explore social issues, independence, identity, everyday experiences and political themes. Important artists include W.I.T.C.H., Rikki Ililonga, Musi-O-Tunya, Amanaz, Ngozi Family and The Peace. Zamrock became an important expression of Zambia's post-independence musical identity.",
+
+  origin:
+    "Zamrock emerged in Zambia during the early 1970s, particularly within the urban music scenes of Lusaka and the Copperbelt mining towns. Its development followed years of musical exchange involving local guitar traditions, imported rock records, African American soul and funk, and international popular music. Zambian musicians transformed these influences into original compositions incorporating African rhythms, local languages and social experiences. Bands such as W.I.T.C.H., Musi-O-Tunya, Amanaz and Ngozi Family helped establish the genre. In 1975, President Kenneth Kaunda introduced a policy requiring at least 90 percent of radio music to be of Zambian origin. This contributed to opportunities for local recording and performance, although the genre was not simply a product of government policy. Zambia Music Parlour, established in 1971, also helped expand local record production. Zamrock flourished between approximately 1972 and 1980 before economic difficulties, declining mining revenues, changing musical tastes and the loss of recording opportunities contributed to its decline. Its originality lies in the transformation of international rock influences into a distinctive Zambian sound that expressed local experiences, cultural identity and post-independence social change.",
+
+  classification:
+    "Modern Zambian rock-music genre originating in the early 1970s. It combines psychedelic rock, garage rock, hard rock, blues and funk with local Zambian rhythms, melodies and languages. Its development within Zambia's post-independence urban music scene and its distinctive musical and social expression establish it as an important part of the country's popular music heritage.",
+
+  references: [
+    {
+      text:
+        "Mooney, K. (2026). One Zambia, One Nation, One Zamrock: How Zamrockers Challenged Kaunda's Humanism. Journal of Popular Music Studies, 38(1), 94-115.",
+      url:
+        "https://doi.org/10.1525/jpms.2026.38.1.94",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Peer-reviewed historical research examining Zamrock's development between 1972 and 1980, its musical influences, post-independence identity, political context and major performers."
+    },
+    {
+      text:
+        "Larmer, M. (2021). Copperbelt Cultures from the Kalela Dance to the Beautiful Time. In Living for the City: Social Change and Knowledge Production in the Central African Copperbelt. Cambridge University Press.",
+      url:
+        "https://doi.org/10.1017/9781108973120.008",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic historical research examining Copperbelt musical development, local guitar styles, Western rock, African American soul and funk, recording industries and the contribution of Zambian musicians."
+    },
+    {
+      text:
+        "Tembo, C. (2019). Doctoral research, University of Pittsburgh.",
+      url:
+        "https://d-scholarship.pitt.edu/36931/7/ETD_TEMBO%20FINAL%20DRAFT%201.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "University research documenting Zambia's 1960s and 1970s music scene, important Zamrock performers, recording studios and the later development of Kalindula."
+    }
+  ]
+},
+
+{
+  name: "Kalindula",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Kalindula is a Zambian popular music and dance style that developed from rural musical traditions, particularly those associated with Luapula Province. It became widely popular during the late 1970s and 1980s. Its sound combines indigenous rhythms, traditional bass instruments and handmade instruments with electric guitars, bass and drums. Songs are commonly performed in Zambian languages and explore relationships, social behaviour, politics and everyday experiences. Important performers include Amayenge, Mulemena Boys, Serenje Kalindula Band, Masasu and Spokes Chola. Kalindula became an important expression of Zambian musical identity.",
+
+  origin:
+    "Kalindula has historical roots in rural musical and dance traditions associated with Luapula Province, including music connected with mourning ceremonies. Its name is linked in ethnomusicological research to the sound of the babatoni, a traditional one-string bass instrument. During the late 1970s and early 1980s, musicians transformed these musical influences into a modern dance-oriented band style by combining handmade instruments and traditional rhythms with electric guitars, bass and drums. Its popularity increased during the 1980s as groups such as Amayenge, Mulemena Boys, Masasu and Serenje Kalindula Band developed and popularised the style. Musicians also used local languages and lyrics to address social behaviour, relationships, economic difficulties and political change. Kalindula developed partly as a locally focused alternative to the popularity of Zamrock and imported disco music. Its originality lies in the transformation of rural Zambian musical practices into an electrified popular style while retaining elements of local rhythms, instruments and cultural expression. Although its musical influences and performance practices also circulated across the Zambia-DRC Copperbelt, Kalindula became strongly established within Zambia's popular music history.",
+
+  classification:
+    "Modern Zambian popular music and dance genre developed from rural musical traditions, particularly those associated with Luapula Province. It combines indigenous rhythms, handmade bass instruments and traditional musical practices with electric guitars, bass and drums. Its use of local languages, dance rhythms and socially relevant lyrics establishes it as an important part of Zambia's popular music heritage.",
+
+  references: [
+    {
+      text:
+        "Larmer, M. (2021). Copperbelt Cultures from the Kalela Dance to the Beautiful Time. In Living for the City: Social Change and Knowledge Production in the Central African Copperbelt, pp. 227-260. Cambridge University Press.",
+      url:
+        "https://doi.org/10.1017/9781108973120.008",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic historical research examining Kalindula's rural Luapula roots, mourning associations, handmade instruments, electric guitar arrangements and development as a popular dance-music style."
+    },
+    {
+      text:
+        "Lumbwe, K. (2013). Negotiating the Rebuilding and Reinventing of Zambian Musical Pasts through Kalindula Music. 42nd International Council for Traditions of Music and Dance World Conference, Shanghai.",
+      url:
+        "https://ictmusic.org/sites/default/files/documents/world%20conferences/books%20of%20abstracts/abstracts%202013%20ictm%20world%20conference.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Ethnomusicological conference research examining Kalindula's Luapula origins, babatoni instrument, lyrical characteristics, social commentary and cultural importance. See page 100."
+    },
+    {
+      text:
+        "Sichinga, W. G. (2012). Some Social and Literary Aspects in Zambian Popular Music: The Case of Serenje Kalindula Band. University of Zambia.",
+      url:
+        "https://dspace.unza.zm/items/4f71fab8-8bc2-45e0-a297-146ddea17735",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "University research examining Kalindula's development, popularisation, electric instrumentation and lyrical and social characteristics through the Serenje Kalindula Band."
+    }
+  ]
+},
+
+{
+  name: "Zed Beats",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Zed Beats is a modern Zambian popular-music movement that emerged in the early 2000s. It combines indigenous Zambian musical elements with influences from hip-hop, R&B, reggae and dancehall. Its sound commonly uses programmed beats, synthesised instruments and computer-based recording. Songs are frequently performed in Bemba, Nyanja and English, exploring relationships, social issues, identity and everyday experiences. Important performers include JK, Mampi, Daddy Zemus, Danny Kaya, Slapdee and Macky 2. Zed Beats also includes subgenres such as Zed Hip-hop, Zed Dancehall and Kopala Dancehall.",
+
+  origin:
+    "Zed Beats developed from changes in Zambia's popular music industry during the late twentieth century. Its foundations were established through semi-professional recording studios from 1986 and the growth of home studios during the 1990s. Affordable recording equipment, computers and music software allowed producers to create music using programmed beats rather than relying entirely on live bands. The movement became established during the early 2000s, when artists began combining indigenous Zambian musical elements with international influences such as hip-hop, R&B, reggae and dancehall. JK's 2001 debut album became an important example of the emerging sound. The term Zed Beats was documented in Laura Hubbard's 2007 research, although it was already circulating among musicians before then. Its originality lies in the combination of local languages, Zambian cultural expression and modern digital production. Over time, it developed into a broad popular-music category containing several local subgenres.",
+
+  classification:
+    "Modern Zambian popular-music movement encompassing several contemporary styles. It combines indigenous musical elements with international influences, particularly hip-hop, R&B, reggae and dancehall. Its development through local languages, digital production, home studios and Zambian performers gives it a distinctive national identity.",
+
+  references: [
+    {
+      text:
+        "Tembo, M. (2024). Zed Beats: A Historical Ethnography of Musical Production and Musical Labor in Zambian Popular Music. PhD dissertation, University of Pittsburgh.",
+      url:
+        "https://d-scholarship.pitt.edu/47246/1/MT%20Diss.%20For%20Re-Deposition%2C%2012_11.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Extensive doctoral ethnographic research examining Zed Beats, its historical development, subgenres, digital production, recording studios, musical influences and performers."
+    },
+    {
+      text:
+        "Hubbard, L. (2007). Idol Hopes: Media Dream Worlds and the Politics of Youth Futures in Zambia. Doctoral dissertation.",
+      url:
+        "https://d-scholarship.pitt.edu/47246/1/MT%20Diss.%20For%20Re-Deposition%2C%2012_11.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Early historical reference to the term Zed Beats, discussed and cited by Tembo (2024). The linked document is Tembo's research reproducing and discussing Hubbard's earlier evidence, not Hubbard's original dissertation."
+    },
+    {
+      text:
+        "Music In Africa (2016). Popular Music in Zambia.",
+      url:
+        "https://musicinafrica.net/node/15659",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Documents Zed Beats as a Zambian popular-music category and discusses its relationship with Kalindula, Zed Hip-hop and other local styles."
+    },
+    {
+      text:
+        "Bwembya, B. (2015). An Introduction to Zed Beats: The New Zambian Music. OkayAfrica.",
+      url:
+        "https://www.okayafrica.com/an-introduction-to-zed-beats-the-new-zambian-music/212601",
+      kind: "journalistic",
+      verified: true,
+      note:
+        "Written by Zambian musician Brian B Flow. Documents the terminology, early performers, international influences and differences between Zed Beats and Kalindula."
+    }
+  ]
+},
+
+{
+  name: "Zambian rumba",
+  type: "modern",
+  originStatus: "shared",
+
+  description:
+    "Zambian rumba is a popular music style developed through the influence of Congolese rumba and local Zambian musical traditions. It became popular in Lusaka and the Copperbelt during the mid-twentieth century. Its sound features melodic guitar arrangements, flowing dance rhythms and expressive vocals. Songs are often performed in Bemba, Nyanja and other local languages, exploring love, relationships, social experiences and political issues. Important performers include Nashil Pichen Kazembe and Peter Tsotsi Juma. Zambian rumba became an important part of the country's popular music history through its adaptation of Central African musical influences.",
+
+  origin:
+    "Zambian rumba developed through musical exchanges between Zambia and the Democratic Republic of Congo during the colonial and post-independence periods. Congolese musicians, traders and mineworkers helped introduce rumba to Zambian communities, particularly in Lusaka and the Copperbelt. Following independence in 1964, Congolese recordings and radio broadcasts became increasingly influential in Zambia's urban entertainment scene. Congolese bands also performed in Zambian venues, while local musicians began adapting rumba rhythms and guitar arrangements into their own compositions. Performers such as Nashil Pichen Kazembe and Peter Tsotsi Juma helped establish a local repertoire through songs using Zambian languages and addressing local social experiences. Kazembe also developed a distinctive musical approach combining rumba with influences from kwela, benga and Swahili music. Its originality lies in the adaptation of Congolese rumba into Zambia's local musical and linguistic environment. Although its foundations are shared with neighbouring Central African countries, its local performers and repertoire established a recognisable Zambian identity.",
+
+  classification:
+    "Modern Zambian popular-music style with shared Central African origins, particularly influenced by Congolese rumba. It combines melodic guitar arrangements and dance rhythms with Zambian languages, local themes and musical influences. Its development through cross-border cultural exchange and local adaptation makes it an important part of Zambia's popular music heritage.",
+
+  references: [
+    {
+      text:
+        "Salter, T. (2007). Rumba: From Congo to Cape Town. PhD thesis, University of Edinburgh.",
+      url:
+        "https://era.ed.ac.uk/server/api/core/bitstreams/a182425b-72e1-4149-86db-df594f777378/content",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Doctoral research documenting the spread of Congolese rumba across Africa, including the migration of Congolese musicians to Zambia, touring, radio broadcasting and regional musical exchange."
+    },
+    {
+      text:
+        "Mtonga, G. (1987). The Content and Form of Zambian Rhumba Songs Performed by Nashil Pichen Kazembe and Peter Tsotsi Juma. MA thesis, University of Zambia.",
+      url:
+        "https://afrobib.com/southern-africa/zambia/zambia-books/",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Early university research specifically devoted to Zambian rhumba, examining the musical and lyrical characteristics of songs performed by Nashil Pichen Kazembe and Peter Tsotsi Juma. Bibliographic record verified; full thesis not independently accessed."
+    },
+    {
+      text:
+        "Kazadi, K. S. (2014). A Sociological Analysis of the Production, Marketing and Distribution of Contemporary Popular Music by Zambian Musicians. MA thesis, Rhodes University.",
+      url:
+        "https://researchrepository.ru.ac.za/items/89565999-be03-4b4a-bc4b-c78680e8438a/full",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "University research examining the influence of Congolese rumba on Zambian popular music, migration, musical exchange and the development of the local recording industry."
+    },
+    {
+      text:
+        "Larmer, M. (2021). Copperbelt Cultures from the Kalela Dance to the Beautiful Time. In Living for the City: Social Change and Knowledge Production in the Central African Copperbelt. Cambridge University Press.",
+      url:
+        "https://doi.org/10.1017/9781108973120.008",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic historical research documenting Congolese rumba performances in Zambia, local rumba recordings and musical exchanges between communities in the Zambia-DRC Copperbelt."
+    }
+  ]
+},
+
+{
+  name: "Chiunda (Bus'tele)",
+  type: "modern",
+  originStatus: "strong",
+
+  description:
+    "Chiunda is a modern Zambian dance-music style associated with the Bus'tele popular-music tradition. It combines indigenous Zambian folk influences with fast electronic rhythms, programmed percussion and energetic dance routines. Its performances are characterised by lively beats, repetitive vocal phrases and movements involving jumps and skips. Important performers include Mozegator (Justin Chipimo), who helped popularise Chiunda through songs such as Chikokoshi (Waist Dance), released in 2005. The style represents the adaptation of traditional Zambian musical influences into contemporary popular entertainment.",
+
+  origin:
+    "Chiunda developed within Zambia's modern popular-music scene through the earlier Bus'tele tradition. Bus'tele originated partly from school sports-support songs performed by students, combining indigenous Zambian folk influences with rhythmic singing and percussion. During the late 1990s and early 2000s, these musical practices were adapted into recorded popular music using keyboards, synthesised sounds and computer-based production. Musician Justin Chipimo, known as Mozegator, became particularly associated with the development of Chiunda. His 2005 release Chikokoshi (Waist Dance) helped popularise the style through energetic dance routines and contemporary electronic arrangements. Its originality lies in transforming indigenous Zambian musical influences and school performance traditions into a modern dance-oriented popular style.",
+
+  classification:
+    "Modern Zambian popular dance-music style associated with the Bus'tele tradition. It combines indigenous Zambian folk influences, fast electronic rhythms, programmed percussion and energetic dance performances. Its development through local musicians and contemporary music production establishes it as part of Zambia's modern popular-music heritage.",
+
+  references: [
+    {
+      text:
+        "Tembo, M. (2024). Zed Beats: A Historical Ethnography of Musical Production and Musical Labor in Zambian Popular Music. PhD dissertation, University of Pittsburgh.",
+      url:
+        "https://d-scholarship.pitt.edu/downloads/80efe856-154f-4055-9794-da0feb419b9d?locale=en",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Direct ethnographic research documenting Bus'tele, Chiunda and Mozegator's 2005 release Chikokoshi (Waist Dance). Explains the style's origins, musical characteristics and relationship with indigenous Zambian folk influences."
+    },
+    {
+      text:
+        "Music In Africa (2015). Hip-hop in Zambia.",
+      url:
+        "https://musicinafrica.net/node/15105",
+      kind: "institutional",
+      verified: true,
+      note:
+        "Provides supporting documentation of Mozegator's Chikokoshi and the development of locally influenced Zambian popular-music styles."
+    }
+  ]
+},
+
+  ] }
 
 ];
