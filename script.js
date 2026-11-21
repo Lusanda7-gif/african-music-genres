@@ -35,6 +35,13 @@ function displayGenre(genre) {
 
     card.className = "genre-card";
 
+    // Displaying the genre name
+const genreName = document.createElement("h3");
+
+genreName.textContent = genre.name;
+
+card.appendChild(genreName);
+
 // Creating a box to hold the two labels
 
 const badges = document.createElement("div");

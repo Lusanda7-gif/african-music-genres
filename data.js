@@ -1,325 +1,615 @@
 
+// South Africa genres: references checked against abstracts, catalogue records or publisher pages.
+// verified: true  = the reference exists and its subject matches the claim it supports (full texts not read).
+// kind: "scholarly" (journal article, book, thesis, encyclopedia entry) or "specialist" (music press or archive).
+// note: anything about the reference that still needs checking.
+
 const countries = [
+  {
+    name: "South Africa",
+    genres: [
+
+    // 1. Amapiano
+   
+{
+  name: "Amapiano",
+  type: "modern",
+  classification: "electronic_dance",
+  originStatus: "strong",
+
+  description:
+    "Amapiano is a South African electronic dance-music genre that emerged in the country's Black townships around 2012. Its name comes from the isiZulu word amapiano, meaning 'the pianos'. It is characterised by melodic piano and synthesiser sounds, deep basslines, atmospheric keyboard arrangements, rhythmic percussion and distinctive electronic production. One of its most recognisable features is the log drum, a synthesised bass sound that produces deep, pitched rhythmic patterns and contributes both melodic and percussive elements to the music. Amapiano combines influences from South African Kwaito and Bacardi music with deep house, jazz, lounge and other electronic dance styles. Its arrangements often feature repetitive piano melodies, smooth harmonies, extended instrumental sections and vocals that include singing, rapping, chanting and spoken phrases. The genre has developed into several variations, including private school, soulful and more rhythmically aggressive forms. Amapiano's distinctive identity comes from combining South African township musical traditions with contemporary electronic production, creating a sound that is recognisably local while appealing to international audiences.",
+
+  origin:
+    "Amapiano emerged in South Africa's Black townships around 2012 through the experimentation of young music producers, DJs and local music communities. Its early development is particularly associated with Gauteng, including townships in Johannesburg and Pretoria. However, its exact birthplace remains debated, with different communities and musicians identifying different locations as important centres of its development. There is no universally accepted account attributing its invention to one individual or township. The genre developed through the combination of earlier South African musical styles, particularly Kwaito, Bacardi and township house music, with international influences such as deep house and jazz. Producers experimented with digital music-production software, synthesised piano arrangements, bass sounds and distinctive rhythmic patterns to create a new electronic dance style. Amapiano's development involved numerous producers and DJs, including MFR Souls, Kabza De Small, JazziDisciples and other contributors to the early Gauteng scene. Its later growth was supported by digital distribution, social media, local dance communities and the South African music industry. Its originality lies in transforming existing South African township music traditions through innovative electronic production, distinctive piano arrangements, deep basslines and the characteristic log-drum sound. Rather than being the invention of one musician, Amapiano developed collectively through the creativity of South African township producers and audiences. The genre subsequently became one of South Africa's most influential contemporary musical exports, gaining international recognition through artists, producers, dance trends and digital music platforms.",
+
+  classificationDescription:
+    "South African-developed electronic dance-music genre with documented origins in Black township music culture and distinctive piano melodies, synthesised sounds, basslines and rhythmic production.",
+
+  references: [
     {
-        name: "South Africa",
-        genres: [
-
-            // 1. Amapiano
-            {
-                name: "Amapiano",
-                type: "modern",
-                originStatus: "strong",
-
-                description: "Amapiano is a South African electronic dance music genre characterised by piano melodies, deep basslines, repetitive rhythms and electronic sounds. It combines influences from house, jazz, Kwaito and Bacardi music.",
-
-                origin: "Amapiano emerged in South African townships around 2012. Its development is strongly associated with Gauteng, particularly Johannesburg and Pretoria. However, its exact place of origin remains debated. Its originality comes from combining different musical influences with South African township culture.",
-
-                classification: "South African-developed modern electronic dance music genre with a documented South African origin.",
-
-                references: [
-                    {
-                        text: "Oloruntoba, A.O. (2024). Understanding amapiano and the South African city through the music videos of Big Flexa and Bhebha. Social Dynamics, 50(3), 416–432.",
-                        url: "https://doi.org/10.1080/02533952.2024.2526251"
-                    },
-                    {
-                        text: "Eaby-Lomas, D.M. (2023). Kwaito as history: Complicating contemporary historiographies. African Music, 12(1), 21–36.",
-                        url: "https://doi.org/10.21504/amj.v12i1.2529"
-                    },
-                    {
-                        text: "Eaby-Lomas, D.M. (2024). Amapiano to the World: A Movement in Afrodiasporic Space.",
-                        url: "https://www.athensjournals.gr/humanities/2024-5113-AJHA-HUM-Eaby-Lomas-07.pdf"
-                    }
-                ]
-            },
-
-            // 2. Cape Jazz
-            {
-                name: "Cape Jazz",
-                type: "traditional",
-                originStatus: "debated",
-
-                description: "Cape Jazz is a South African regional jazz style associated with Cape Town and the Western Cape. Its musical characteristics include jazz improvisation, goema rhythms, Cape carnival music, traditional local melodies and influences from other jazz and popular music styles.",
-
-                origin: "Cape Jazz developed through the musical and cultural experiences of Cape Town communities, particularly historically marginalised Coloured communities during apartheid. Its originality comes from combining jazz with traditional Cape musical influences, especially goema rhythms and carnival music. However, the term Cape Jazz does not always describe one clearly defined musical style. Musicians and researchers may interpret its characteristics and boundaries differently.",
-
-                classification: "South African regional jazz style and musical identity. It is included because of its historical and cultural significance.",
-
-                references: [
-                    {
-                        text: "Martin, D-C. (2013). Sounding the Cape: Music, Identity and Politics in South Africa. African Minds.",
-                        url: ""
-                    },
-                    {
-                        text: "Runner, G.E. (2024). Written History and Lived Legacy of Cape Town Jazz.",
-                        url: ""
-                    },
-                    {
-                        text: "Layne, V. (2019). Goema's Refrain: Sonic Anticipation and the Musicking Cape. PhD thesis, University of the Western Cape.",
-                        url: ""
-                    }
-                ]
-            },
-
-            // PART 2 WILL CONTINUE HERE
-
-            // 3. Gqom
-            {
-                name: "Gqom",
-                type: "modern",
-                originStatus: "strong",
-
-                description: "Gqom is a South African electronic dance music genre characterised by heavy bass, repetitive beats, minimal melodies and dark electronic sounds. It is known for its strong rhythms and energetic dance style.",
-
-                origin: "Gqom emerged in Durban, KwaZulu-Natal, around 2008–2010. It developed in local townships where young music producers experimented with electronic music production using computers and digital music software. Its originality comes from its heavy bass, repetitive rhythms, minimal musical arrangements and connection to Durban's dance culture. Although Gqom has influences from Kwaito and house music, it developed its own unique sound and identity.",
-
-                classification: "South African-developed electronic dance music genre with a documented Durban origin.",
-
-                references: [
-                    {
-                        text: "Eaby-Lomas, D.M. (2022). Historicising Gqom as a Post-Kwaito Phenomenon. Journal of the Musical Arts in Africa, 18(1), 101–116.",
-                        url: "https://doi.org/10.2989/18121004.2021.2020964"
-                    },
-                    {
-                        text: "Zungu, E.B. (2020). Modernizing Traditional Game Songs through Gqom Music: A Case Study of Babes Wodumo. Mankind Quarterly, 61(1), 90–110.",
-                        url: ""
-                    },
-                    {
-                        text: "Van der Merwe, S.D. (2026). New Currents, Old Boundaries: Exploring the Relationship between Streaming Platforms and Afrikaans Music. Africa, 96(1), 14–34.",
-                        url: "https://doi.org/10.1017/S0001972026101764"
-                    }
-                ]
-            },
-
-            // 4. Isicathamiya
-            {
-                name: "Isicathamiya",
-                type: "traditional",
-                originStatus: "strong",
-
-                description: "Isicathamiya is a traditional South African Zulu vocal music style characterised by male a cappella singing, meaning singing without instrumental accompaniment. It is known for its beautiful vocal harmonies, carefully arranged choir parts and gentle, coordinated dance movements.",
-
-                origin: "Isicathamiya developed among Zulu-speaking migrant workers during the early twentieth century, particularly in Natal and later Johannesburg. It emerged because of the growth of migrant labour and urbanisation in South Africa. The music combined traditional Zulu singing styles with influences from Christian hymns and missionary music. Its originality comes from its unique vocal harmonies, group performances, gentle movements and connection to Zulu cultural identity.",
-
-                classification: "South African traditional vocal music style with documented Zulu cultural origins and historical development.",
-
-                references: [
-                    {
-                        text: "Yende, S.J. and Ngema, V. (2022). Examining the Autonomy of Zulu Ingoma from the 1930s to Present: Image or Authentic Experience? HTS Teologiese Studies / Theological Studies, 78(3), a7610.",
-                        url: "https://doi.org/10.4102/hts.v78i3.7610"
-                    },
-                    {
-                        text: "Erlmann, V. (1990). Migration and Performance: Zulu Migrant Workers' Isicathamiya Performance in South Africa, 1890–1950. Ethnomusicology, 34(2), 199–220.",
-                        url: ""
-                    },
-                    {
-                        text: "Erlmann, V. (1992). The Past Is Far and the Future Is Far: Power and Performance among Zulu Migrant Workers. American Ethnologist, 19(4), 688–709.",
-                        url: "https://doi.org/10.1525/ae.1992.19.4.02a00040"
-                    }
-                ]
-            },
-
-            // 5. Kwaito
-            {
-                name: "Kwaito",
-                type: "modern",
-                originStatus: "strong",
-
-                description: "Kwaito is a South African urban popular-music genre that developed during the 1990s. It is characterised by slower house-inspired electronic beats, heavy basslines, synthesised sounds and rhythmic vocals. Its lyrics often reflect township life, youth experiences and South African culture.",
-
-                origin: "Kwaito emerged in South Africa during the early 1990s, particularly in Johannesburg's township music scene. It developed by adapting international house music and combining it with local African musical influences, hip-hop, township languages and dance traditions. Its originality comes from creating a unique South African urban sound that represents youth identity, township culture and the social changes that followed apartheid.",
-
-                classification: "South African-developed urban electronic popular-music genre with a documented South African origin.",
-
-                references: [
-                    {
-                        text: "Mhlambi, T. (2004). 'Kwaitofabulous': The Study of a South African Urban Genre. Journal of the Musical Arts in Africa, 1(1), 116–127.",
-                        url: "https://doi.org/10.2989/18121000409486692"
-                    },
-                    {
-                        text: "Steingo, G. (2008). Historicizing Kwaito. African Music: Journal of the International Library of African Music, 8(2), 76–91.",
-                        url: "https://doi.org/10.21504/amj.v8i2.1782"
-                    },
-                    {
-                        text: "Allen, L. (2004). Kwaito versus Crossed-Over: Music and Identity during South Africa's Rainbow Years, 1994–99. Social Dynamics, 30(2), 82–111.",
-                        url: "https://doi.org/10.1080/02533950408628686"
-                    }
-                ]
-            },
-
-            // PART 3 WILL CONTINUE HERE
-
-            
-            // 6. Kwela
-            {
-                name: "Kwela",
-                type: "traditional",
-                originStatus: "strong",
-
-                description: "Kwela is a South African popular music style characterised by lively dance rhythms, catchy melodies and the use of the pennywhistle as its main instrument. Other instruments such as guitars, bass, drums and saxophones may also be used.",
-
-                origin: "Kwela developed in South African urban townships, particularly Johannesburg and areas such as Alexandra and Sophiatown, during the 1940s and 1950s. It was influenced by local musical styles such as Marabi and African jazz, as well as American swing music. Its originality comes from the use of the pennywhistle to create a distinctive township sound that became popular through street performances and dancing.",
-
-                classification: "South African-developed urban popular-music style with a documented historical origin.",
-
-                references: [
-                    {
-                        text: "Allen, L.V. (1993). Pennywhistle Kwela: A Musical, Historical and Socio-Political Analysis. Master's thesis, University of Natal.",
-                        url: "https://researchspace.ukzn.ac.za/items/3641da70-180d-43ee-9aee-0d39b88af6b3"
-                    },
-                    {
-                        text: "Allen, L. (1996). Drumbeats, Pennywhistles and All That Jazz: The Relationship between Urban South African Musical Styles and Musical Meaning. African Music, 7(3), 52–59.",
-                        url: "https://doi.org/10.21504/amj.v7i3.1963"
-                    },
-                    {
-                        text: "Allen, L. (2008). Kwela's White Audiences: The Politics of Pleasure and Identification in the Early Apartheid Period.",
-                        url: ""
-                    }
-                ]
-            },
-
-            // 7. Marabi
-            {
-                name: "Marabi",
-                type: "traditional",
-                originStatus: "strong",
-
-                description: "Marabi is an early South African urban music and dance style characterised by repetitive piano and pedal-organ melodies, catchy rhythms and repeating chord patterns. It was mainly played to accompany social dancing and entertainment.",
-
-                origin: "Marabi developed in Johannesburg's urban African communities during the early twentieth century, particularly in the 1920s and 1930s. It became popular in slumyard communities, shebeens and working-class social gatherings. Its originality comes from combining traditional African musical influences with urban popular music, creating a distinctive South African keyboard-based sound. Marabi also influenced later South African music styles, including Kwela, African Jazz and Mbaqanga.",
-
-                classification: "South African urban music and dance tradition with a documented historical origin.",
-
-                references: [
-                    {
-                        text: "South African History Online. (2011). Music and Culture as Forms of Resistance.",
-                        url: "https://sahistory.org.za/article/music-and-culture-forms-resistance"
-                    },
-                    {
-                        text: "Ballantine, C. (1993). Concert and Dance: The Foundations of Black Jazz in South Africa between the Twenties and the Early Forties. Popular Music.",
-                        url: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AA1C1C66A963D4E672908F6FFF1B151B/S0261143000004475a.pdf/concert-and-dance-the-foundations-of-black-jazz-in-south-africa-between-the-twenties-and-the-early-forties.pdf"
-                    },
-                    {
-                        text: "Ballantine, C. (2001). Marabi. Grove Music Online.",
-                        url: "https://doi.org/10.1093/gmo/9781561592630.article.51496"
-                    }
-                ]
-            },
-
-            // 8. Maskandi
-            {
-                name: "Maskandi",
-                type: "traditional",
-                originStatus: "strong",
-
-                description: "Maskandi, also known as Maskanda, is a South African Zulu folk and popular music style characterised by acoustic guitar playing, distinctive guitar rhythms, concertina and storytelling. It often includes call-and-response singing, where a lead singer is answered by other singers. Its lyrics commonly discuss personal experiences, relationships, cultural identity and everyday life.",
-
-                origin: "Maskandi developed within Zulu-speaking communities in South Africa, particularly in KwaZulu-Natal. It is closely connected to rural life, migration and the experiences of workers who travelled between rural areas and cities for employment. Its originality comes from its distinctive Zulu storytelling, guitar-playing techniques and traditional performance styles. Although it includes modern instruments and outside musical influences, it has maintained a recognisable South African musical identity.",
-
-                classification: "South African Zulu folk and popular music tradition with a documented regional and cultural origin.",
-
-                references: [
-                    {
-                        text: "De Jong, N. and Diko, K.M. (2020). Maskanda, Umkhosi wokukhahlela and the Articulation of Identity in South Africa. Journal of the Royal Musical Association, 145(1), 167–190.",
-                        url: "https://doi.org/10.1017/rma.2020.8"
-                    },
-                    {
-                        text: "Ntombela, S.A. (2017). Maskandi: A Critical General Inductive Analysis of Zulu Maskandi Songs. Southern African Journal for Folklore Studies, 27(1), 42–52.",
-                        url: "https://doi.org/10.25159/1016-8427/1465"
-                    },
-                    {
-                        text: "Pewa, E.S. (2005). The Philosophical, Behavioural and Academic Merit of uMaskandi Music. University of Zululand.",
-                        url: "https://uzspace.unizulu.ac.za/handle/10530/277"
-                    }
-                ]
-            },
-
-            // PART 4 WILL CONTINUE HERE
-
-
-            // 9. Mbaqanga
-            {
-                name: "Mbaqanga",
-                type: "modern",
-                originStatus: "strong",
-
-                description: "Mbaqanga is a South African popular-music style characterised by strong basslines, electric guitars, repeated melodies, lively dance rhythms and call-and-response singing. It combines traditional African musical influences with modern instruments and sounds.",
-
-                origin: "Mbaqanga developed in South Africa, particularly within urban African communities, during the 1950s and early 1960s. Its development was influenced by earlier musical styles such as Marabi, Kwela and African jazz, as well as international music. Its originality comes from combining these influences with traditional African rhythms, electric guitar arrangements and distinctive vocal styles to create a recognisable South African sound.",
-
-                classification: "South African-developed urban popular-music genre with a documented historical development and distinctive local identity.",
-
-                references: [
-                    {
-                        text: "Zeleza, P.T. (2010). Dancing to the Beat of the Diaspora: Musical Exchanges between Africa and its Diasporas. African and Black Diaspora, 3(2), 211–236.",
-                        url: "https://doi.org/10.1080/17528631.2010.481976"
-                    },
-                    {
-                        text: "Allen, L. (2001). Mbaqanga. Grove Music Online.",
-                        url: "https://doi.org/10.1093/gmo/9781561592630.article.51740"
-                    },
-                    {
-                        text: "Ntaka, G.M. (2007). Music as Culture, Music in Culture: An Analytical Study of the History and Cultural Context of Mbaqanga Music in South Africa. PhD thesis, University of Zululand.",
-                        url: ""
-                    }
-                ]
-            },
-
-            // 10. Shangaan Electro
-            {
-                name: "Shangaan Electro",
-                type: "modern",
-                originStatus: "strong",
-
-                description: "Shangaan Electro, also known as Tsonga Electro, is a South African electronic dance music style characterised by very fast beats, synthesised melodies, electronic percussion and high-pitched vocal samples. It also incorporates traditional Tsonga musical sounds and energetic dance rhythms.",
-
-                origin: "Shangaan Electro developed in South Africa's Limpopo region around 2005. It is associated with Tsonga and Shangaan musical communities and became popular through the work of local producers, particularly Nozinja. The style developed by combining traditional Tsonga music and dance with modern electronic production. Its originality comes from its exceptionally fast tempo, unique electronic sounds and connection to local dance traditions.",
-
-                classification: "South African-developed electronic dance music style with a documented Limpopo origin and Tsonga/Shangaan cultural connection.",
-
-                references: [
-                    {
-                        text: "Mociun, J. (2023). The Frantic Rise of Shangaan Electro. Pan African Music.",
-                        url: "https://pan-african-music.com/en/shangaan-electro/"
-                    },
-                    {
-                        text: "Welsh, A.C. (2015). How Nozinja Invented Shangaan Electro and Took It to the World. The FADER.",
-                        url: "https://www.thefader.com/2015/06/01/how-nozinja-invented-shangaan-electro"
-                    },
-                    {
-                        text: "Swash, R. (2010). Scene and Heard: Shangaan Electro. The Guardian.",
-                        url: "https://www.theguardian.com/music/musicblog/2010/aug/03/scene-heard-shangaan"
-                    }
-                ]
-            }
-
-        ]
+      text:
+        "Eaby, D. (2023). Kwaito's Legacy of Aestheticizing Freedom: Amapiano in Langa Township and the World. Master's dissertation, University of Cape Town.",
+      url:
+        "http://hdl.handle.net/11427/39331",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "University of Cape Town dissertation examining Amapiano's emergence around 2012, township origins, musical characteristics and relationship with Kwaito."
     },
-
-    // OTHER AFRICAN COUNTRIES
-
     {
-        name: "Algeria",
-        genres: []
+      text:
+        "Eaby-Lomas, D.M. (2023). Kwaito as History: Complicating Contemporary Historiographies. African Music, 12(1), 21–36.",
+      url:
+        "https://doi.org/10.21504/amj.v12i1.2529",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic article examining Amapiano's historical relationship with Kwaito, Mbaqanga, bubblegum and earlier South African township music. Correct publication year is 2023."
     },
-
     {
-        name: "Angola",
-        genres: []
+      text:
+        "Oloruntoba, A.O. (2024). Understanding Amapiano and the South African City Through the Music Videos of Big Flexa and Bhebha. Social Dynamics, 50(3), 416–432.",
+      url:
+        "https://doi.org/10.1080/02533952.2024.2526251",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic article examining Amapiano, township identity, urban culture and contemporary South African youth."
     },
-
     {
-        name: "Botswana",
-        genres: []
-    },
-
-    {
-        name: "Zimbabwe",
-        genres: []
-    },
-
-    {
-        name: "Zambia",
-        genres: []
+      text:
+        "Eaby-Lomas, D.M. (2025). Amapiano to the World: A Movement in Afrodiasporic Space. Athens Journal of Humanities & Arts, 12(2), 147–170.",
+      url:
+        "https://www.athensjournals.gr/humanities/2024-5113-AJHA-HUM-Eaby-Lomas-07.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic article examining Amapiano's international influences, global circulation and Afrodiasporic identity."
     }
+  ]
+},
+
+    // 2. Cape Jazz
+    
+{
+  name: "Cape Jazz",
+  type: "modern",
+  classification: "urban_popular",
+  originStatus: "debated",
+
+  description:
+    "Cape Jazz is a South African regional jazz tradition associated particularly with Cape Town and the Western Cape. It combines jazz improvisation, instrumental arrangements and harmonic structures with musical influences from local Cape traditions, including goema rhythms, Cape carnival music, traditional dance music, church music and township jazz. Its instrumentation commonly includes saxophones, trumpets, piano, electric and acoustic guitars, bass and drums. A distinctive feature of Cape Jazz is its use of the goema or ghoema rhythmic pattern, which is associated with Cape carnival and other local musical traditions. Its compositions may also incorporate elements of marabi, African jazz, swing and international jazz styles. Cape Jazz is closely associated with musicians such as Abdullah Ibrahim, Robbie Jansen, Basil Coetzee, Winston Mankunku and Mac McKenzie. Their work demonstrates how local Cape musical influences have been incorporated into jazz improvisation and contemporary musical expression. The term does not describe one completely fixed musical style. Rather, it encompasses a range of jazz practices and musical expressions shaped by Cape Town's diverse cultural and historical environment.",
+
+  origin:
+    "Cape Jazz developed in Cape Town during the twentieth century through the interaction of local musical traditions, urban dance music and international jazz influences. Its historical foundations are connected to the musical experiences of communities in the Western Cape, particularly those whose cultural and social lives were shaped by slavery, colonialism, migration and apartheid. Earlier musical traditions, including goema, Cape carnival music, moppies, vastrap, church music and urban dance-band traditions, contributed to the development of the regional sound. These influences interacted with African jazz, swing, bebop and other international jazz styles. During the 1950s and 1960s, Cape Town developed an active jazz and dance-band culture. Musicians increasingly incorporated local rhythmic and melodic elements into jazz arrangements. By the 1970s and 1980s, Cape Jazz had become more widely recognised, particularly through recordings and performances by musicians such as Abdullah Ibrahim, Basil Coetzee and Robbie Jansen. Its originality lies in combining jazz improvisation with distinctive Cape musical rhythms, melodies and cultural influences. It reflects the historical experiences and musical creativity of Cape communities while demonstrating how international musical forms can be adapted to local cultural environments. An important qualification is that Cape Jazz has contested boundaries. Some musicians and researchers regard it as a recognisable regional musical style, while others question whether it should be treated as a single genre rather than a broad description of different musical practices originating in the Cape.",
+
+  classificationDescription:
+    "South African urban regional jazz tradition associated with Cape Town and the Western Cape, combining jazz improvisation with local Cape musical traditions and international jazz influences. Its precise genre boundaries and historical definition remain debated.",
+
+  references: [
+    {
+      text:
+        "Martin, D-C. (2013). Sounding the Cape: Music, Identity and Politics in South Africa. African Minds.",
+      url:
+        "https://www.africanminds.co.za/wp-content/uploads/2013/05/Sounding-the-Cape-Web.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book examining Cape musical traditions, musical hybridity, identity and the development of Cape Jazz."
+    },
+    {
+      text:
+        "Layne, V. (2019). Goema's Refrain: Sonic Anticipation and the Musicking Cape. PhD thesis, University of the Western Cape.",
+      url:
+        "https://hdl.handle.net/10566/9766",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Doctoral research examining goema, Cape musical traditions and the relationship between local musical history and Cape Jazz."
+    },
+    {
+      text:
+        "Layne, V. (1995). A History of Dance and Jazz Band Performance in the Western Cape in the Post-1945 Era. MA thesis, University of Cape Town.",
+      url:
+        "http://hdl.handle.net/11427/7853",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Historical research examining Cape Town jazz musicians, dance bands and musical culture from the 1930s to the 1960s."
+    },
+    {
+      text:
+        "Martin, D-C. (2013). Separation and Interweaving in the 20th Century: Fertile Intertwining. In Sounding the Cape: Music, Identity and Politics in South Africa. African Minds.",
+      url:
+        "https://www.africanminds.co.za/wp-content/uploads/2013/05/Sounding-the-Cape-Web.pdf",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Relevant chapter discussing the interaction of goema, Klopse, marabi and other musical traditions in the development of Cape Jazz."
+    }
+  ]
+},
+
+    // 3. Gqom
+    
+{
+  name: "Gqom",
+  type: "modern",
+  classification: "electronic_dance",
+  originStatus: "strong",
+
+  description:
+    "Gqom is a South African electronic dance-music genre that emerged in Durban, KwaZulu-Natal, around 2009–2010. Its name is commonly associated with a Zulu onomatopoeic expression suggesting a heavy thumping or banging sound, reflecting its distinctive rhythmic character. The genre is characterised by heavy bass, repetitive and syncopated drum patterns, minimal melodic and harmonic elements, and raw electronic production. Its music often features broken rhythms, repetitive percussion, dark synthesised sounds and prominent basslines. Unlike some house-music styles that rely heavily on continuous four-on-the-floor rhythms, Gqom frequently uses irregular rhythmic arrangements and unexpected rhythmic breaks. Gqom developed from South Africa's electronic dance-music culture, drawing on influences from house music, Kwaito and earlier local dance styles. Its stripped-down production, rhythmic intensity and distinctive sound have made it an important part of contemporary South African club and dance culture. The genre has also developed several related styles and variations, including Durban Gqom and other forms of contemporary South African electronic dance music.",
+
+  origin:
+    "Gqom emerged in Durban's underground music scene around 2009–2010 through the experimentation of young local producers and DJs. Its development was closely connected to Durban's townships and informal music networks, where producers created electronic tracks using accessible music-production software and shared their recordings within local communities. Early Gqom circulated through informal distribution networks, including minibus taxis, CDs, Bluetooth file sharing and digital messaging platforms. These methods helped the music spread among local listeners and dancers before it gained significant mainstream and international attention. The genre developed through the creative experimentation of several Durban producers, rather than being invented by one individual. Important contributors to its early development and popularisation include DJ Lag, Rudeboyz, Distruction Boyz and other producers associated with Durban's underground scene. Gqom draws on earlier South African dance-music traditions, particularly Kwaito and house music, but developed a distinctive sound through its stripped-down electronic arrangements, heavy bass, syncopated drum patterns and minimal melodic structures. Its originality lies in its emphasis on rhythm, its raw and minimal production style, and its connection to Durban's township music and dance culture. Although it shares influences with other South African electronic dance genres, Gqom established a recognisable musical identity that later attracted international audiences and influenced contemporary African electronic music.",
+
+  classificationDescription:
+    "South African-developed electronic dance-music genre with documented origins in Durban, KwaZulu-Natal, characterised by bass-heavy electronic production, syncopated percussion, broken rhythms and minimal melodic arrangements.",
+
+  references: [
+    {
+      text:
+        "Eaby-Lomas, D.M. (2021). Historicising Gqom as a Post-Kwaito Phenomenon. Journal of the Musical Arts in Africa, 18(1), 101–116.",
+      url:
+        "https://doi.org/10.2989/18121004.2021.2020964",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic research examining Gqom's historical development and relationship with Kwaito and earlier South African music."
+    },
+    {
+      text:
+        "Mthembu, S. (2017). What Happens When South Africa's Gqom Underground Goes Global? VICE, 16 March 2017.",
+      url: "",
+      kind: "specialist",
+      verified: false,
+      note:
+        "Potential specialist journalism reference. Exact article bibliographic details and original publication link require further confirmation."
+    }
+  ]
+},
+,
+
+  // 4. Isicathamiya
+    
+{
+  name: "Isicathamiya",
+  type: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Isicathamiya is a South African Zulu male choral music tradition characterised by a cappella singing, carefully arranged vocal harmonies, melodic bass lines and coordinated, gentle dance movements. It is traditionally performed by male singing groups, often during organised choir competitions and overnight musical gatherings. Its musical arrangements commonly feature layered vocal harmonies, a prominent bass voice, lead singing and supporting responses from other choir members. Performances combine singing with carefully coordinated movements, distinctive clothing and choreographed presentations. Isicathamiya songs are commonly performed in isiZulu and may explore themes such as family, love, home, social experiences, migration, religion and cultural identity. The tradition is internationally recognised through groups such as Ladysmith Black Mambazo. Its originality lies in its distinctive combination of Zulu vocal traditions, Christian hymn influences, urban choral arrangements and carefully coordinated group performances.",
+
+  origin:
+    "Isicathamiya developed among Zulu-speaking migrant workers in South Africa during the late nineteenth and early twentieth centuries. Its historical development was closely connected to labour migration, urbanisation and the movement of workers from rural KwaZulu-Natal to industrial centres such as Durban and Johannesburg. Migrant workers used music and choral performances to maintain connections with their cultural identities, rural homes and communities while living and working in urban environments. The tradition developed through the interaction of Zulu singing and dance practices, Christian hymnody and urban popular performance traditions. During the twentieth century, organised male choir competitions became important spaces for the development and preservation of Isicathamiya. These competitions allowed groups to demonstrate their vocal arrangements, musical creativity, choreography and performance identities. One of the most internationally recognised groups associated with this tradition is Ladysmith Black Mambazo, founded by Joseph Shabalala in 1960. The group's international success helped introduce Isicathamiya to audiences beyond South Africa. Its originality lies in its distinctive a cappella harmonies, bass-led vocal arrangements, coordinated movements and the expression of Zulu cultural identity and migrant-worker experiences through group performance. Although it has evolved through recordings, international performances and contemporary musical influences, it has maintained a recognisable South African cultural identity. Isicathamiya is therefore best understood as a historically developed South African choral tradition with roots in migrant-worker communities and urban musical culture.",
+
+  classification:
+    "South African-developed Zulu choral music tradition with historical roots in migrant-worker communities, characterised by a cappella singing, distinctive vocal harmonies, coordinated movements and organised choir performances.",
+
+  references: [
+    {
+      text:
+        "Erlmann, V. (1990). Migration and Performance: Zulu Migrant Workers' Isicathamiya Performance in South Africa, 1890–1950. Ethnomusicology, 34(2), 199–220.",
+      url:
+        "https://doi.org/10.2307/851683",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Important historical research examining the development of Isicathamiya among Zulu migrant workers between 1890 and 1950."
+    },
+    {
+      text:
+        "Erlmann, V. (1992). The Past Is Far and the Future Is Far: Power and Performance among Zulu Migrant Workers. American Ethnologist, 19(4), 688–709.",
+      url:
+        "https://doi.org/10.1525/ae.1992.19.4.02a00040",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Examines Isicathamiya performance, migrant identity, cultural belonging and choir competitions."
+    },
+    {
+      text:
+        "Erlmann, V. (1994). The Early History of Isicathamiya: An Interview with Thembinkosi Pewa. In For Gerhard Kubik: Festschrift on the Occasion of His 60th Birthday, pp. 193–218. Frankfurt am Main: Peter Lang.",
+      url: "",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Historical research using an interview with Thembinkosi Pewa to examine the early development of Isicathamiya."
+    },
+    {
+      text:
+        "Erlmann, V. (1996). Nightsong: Performance, Power, and Practice in South Africa. Chicago: University of Chicago Press.",
+      url:
+        "https://press.uchicago.edu/ucp/books/book/chicago/N/bo3632138.html",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Comprehensive scholarly study of Isicathamiya, including its history from 1891 to 1991, performance practices, migrant experiences and cultural identity."
+    }
+  ]
+},
+    // 5. Kwaito
+      
+{
+  name: "Kwaito",
+  type: "modern",
+  classification: "urban_popular",
+  originStatus: "strong",
+
+  description:
+    "Kwaito is a South African urban popular-music genre that emerged in the early 1990s and became especially popular during the post-apartheid period. It is characterised by relatively slow, house-inspired electronic beats, deep basslines, repetitive rhythms, synthesised sounds and rhythmic vocals. Its musical influences include international house music, hip-hop and earlier South African township styles. Its lyrics often reflect township life, youth identity, social experiences, fashion and changing South African society.",
+
+  origin:
+    "Kwaito emerged in South Africa during the early 1990s, particularly in Johannesburg's townships, during a period of major political and social transformation. Its development was closely connected to the end of apartheid, the expansion of musical freedom and the emergence of a new generation of South African youth. Although kwaito is commonly associated with the post-apartheid period, its musical roots extend further back. Earlier South African styles, including Marabi, Kwela, Mbaqanga and 1980s bubblegum music, contributed to its development. International influences, particularly house music and hip-hop, were also adapted to create a distinctive local sound. Its originality lies in combining electronic dance music with South African township rhythms, local languages, vocal styles and cultural expressions. Kwaito consequently became more than a dance-music genre: it developed into an important expression of South African youth identity, township culture and the social changes that followed apartheid.",
+
+  classificationDescription:
+    "South African-developed urban popular-music genre with a documented historical origin and distinctive local cultural identity.",
+
+  references: [
+    {
+      text:
+        "Mhlambi, T. (2004). 'Kwaitofabulous': The study of a South African urban genre. Journal of the Musical Arts in Africa, 1(1), 116–127.",
+      url:
+        "https://doi.org/10.2989/18121000409486692",
+      kind: "scholarly",
+      verified: true
+    },
+    {
+      text:
+        "Steingo, G. (2008). Historicizing kwaito. African Music, 8(2), 76–91.",
+      url:
+        "https://doi.org/10.21504/amj.v8i2.1782",
+      kind: "scholarly",
+      verified: true
+    },
+    {
+      text:
+        "Allen, L. (2004). Kwaito versus crossed-over: Music and identity during South Africa's rainbow years, 1994–1996. Social Dynamics, 30(2), 82–111.",
+      url:
+        "https://doi.org/10.1080/02533950408628686",
+      kind: "scholarly",
+      verified: true
+    },
+    {
+      text:
+        "South African History Online. (2011, updated 2019). A history of Kwaito music.",
+      url:
+        "https://sahistory.org.za/article/history-kwaito-music",
+      kind: "specialist",
+      verified: true
+    }
+  ]
+},
+,
+
+      // 6. Kwela
+      
+{
+  name: "Kwela",
+  type: "traditional",
+  classification: "urban_popular",
+  originStatus: "strong",
+
+  description:
+    "Kwela is a South African urban popular-music style that became prominent during the 1950s. It is characterised by lively swing-influenced rhythms, catchy melodies and the prominent use of the pennywhistle as its original lead instrument. Its traditional instrumentation includes guitars, banjos, string bass and drums, while saxophones and electric instruments became more prominent in later developments. Kwela music is generally upbeat and dance-oriented, featuring repetitive melodic patterns and improvisation.",
+
+  origin:
+    "Kwela developed in South Africa's urban black communities, particularly Johannesburg, during the early and middle 1950s. However, its musical foundations can be traced to earlier township styles, including Marabi, tsaba-tsaba and African jazz. During the 1930s and 1940s, pennywhistles were used by street performers and marching groups, while musicians later adapted the instrument to play rhythms influenced by American swing, rhythm and blues and local African musical traditions. From approximately 1954, pennywhistle musicians began recording and developing the distinctive sound that became known as kwela. It gained popularity through street performances, shebeens, dance gatherings and commercial recordings. The style also attracted international attention during the 1950s. Its originality lies in transforming an inexpensive and accessible instrument into the defining voice of a distinctive South African urban musical style. Kwela combined local township musical traditions with international jazz and swing influences, creating a sound associated with urban black identity and social life during apartheid. Later developments included the use of saxophones and electric instruments, contributing to the emergence of sax jive.",
+
+  classificationDescription:
+    "South African-developed urban popular-music style with a documented historical origin and distinctive local musical identity.",
+
+  references: [
+    {
+      text:
+        "Allen, L.V. (1993). Pennywhistle Kwela: A Musical, Historical and Socio-Political Analysis. MMus thesis, University of Natal, Durban.",
+      url:
+        "https://researchspace.ukzn.ac.za/items/3641da70-180d-43ee-9aee-0d39b88af6b3",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "University repository record and thesis abstract verified. Examines kwela's musical, historical, socio-cultural and political development."
+    },
+    {
+      text:
+        "Allen, L. (1996). 'Drumbeats, pennywhistles and all that jazz': The relationship between urban South African musical styles and musical meaning. African Music, 7(3), 52–59.",
+      url:
+        "https://doi.org/10.21504/amj.v7i3.1963",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Journal record, author, publication year, volume and pages verified."
+    },
+    {
+      text:
+        "Allen, L. (2008). Kwela's White Audiences: The politics of pleasure and identification in the early apartheid period. In Composing Apartheid: Music for and against Apartheid, Chapter 4, pp. 79–98. Wits University Press.",
+      url:
+        "https://www.cambridge.org/core/books/abs/composing-apartheid/kwelas-white-audiences-the-politics-of-pleasure-and-identification-in-the-early-apartheid-period/418CE2FD552510C484CC6A30D138807A",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Chapter author, title and publisher record verified. Useful for kwela's social history, audiences and musical development."
+    },
+    {
+      text:
+        "South African History Online. The development of Music in South Africa: Timeline 1600–2004.",
+      url:
+        "https://sahistory.org.za/article/development-music-south-africa-timeline-1600-2004",
+      kind: "specialist",
+      verified: true,
+      note:
+        "Historical source documenting kwela's development during the 1950s and its relationship with Marabi."
+    }
+  ]
+},
+,
+
+      // 7. Marabi
+      
+{
+  name: "Marabi",
+  type: "traditional",
+  classification: "urban_popular",
+  originStatus: "strong",
+
+  description:
+    "Marabi is an early South African urban popular-music and dance tradition that developed during the early twentieth century. It is characterised by repetitive piano and organ melodies, cyclical chord progressions, rhythmic patterns and lively dance rhythms. Its music commonly uses a repeating four-chord sequence, allowing performers to improvise melodies and sustain performances for extended periods. Marabi was traditionally performed on pianos and pedal organs, sometimes accompanied by simple percussion instruments such as pebble-filled tins. Marabi's sound combines African musical traditions with influences from ragtime, blues and other popular dance music.",
+
+  origin:
+    "Marabi emerged in the urban black communities of South Africa during the early twentieth century, particularly in Johannesburg's mining settlements and slumyards. It became closely associated with the shebeens and weekend dance parties of the 1920s and 1930s, where musicians performed for working-class communities. Its development was influenced by African musical traditions, including repetitive rhythmic and melodic structures, as well as international musical styles such as American ragtime and blues. These influences were adapted to local instruments, particularly inexpensive pedal organs and pianos. Marabi became an important expression of urban African working-class culture. Its music provided entertainment, social connection and a sense of community among people experiencing difficult conditions under segregation and apartheid. Its originality lies in combining African musical principles with urban instruments and outside musical influences to create a distinctive South African dance tradition. Marabi also played an important role in the development of later South African music, particularly African jazz and the marabi-swing tradition that contributed to the development of Mbaqanga.",
+
+  classificationDescription:
+    "South African urban popular-music and dance tradition with a documented historical origin in Johannesburg and distinctive African musical characteristics.",
+
+  references: [
+    {
+      text:
+        "Ballantine, C. (2001). Marabi. Grove Music Online.",
+      url:
+        "https://doi.org/10.1093/gmo/9781561592630.article.51496",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Scholarly music reference documenting Marabi's historical development, musical characteristics, instruments and harmonic structures."
+    },
+    {
+      text:
+        "Ballantine, C. (1993). Marabi Nights: Early South African Jazz and Vaudeville. Johannesburg: Ravan Press. Second edition, 2012, University of KwaZulu-Natal Press.",
+      url:
+        "",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Important scholarly book examining early South African jazz, Marabi and black urban musical culture."
+    },
+    {
+      text:
+        "Caplan, D. (1979). Marabi Culture: Continuity and Transformation in African Music in Johannesburg, 1920–1940. African Urban Studies, 6, 49–75.",
+      url:
+        "https://www.africabib.org/rec.php?RID=18806317X",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Bibliographic record confirms the author, title, publication year, journal and pages. Examines Marabi's urban cultural development."
+    },
+    {
+      text:
+        "South African History Online. (2011). Music and culture as forms of resistance.",
+      url:
+        "https://sahistory.org.za/article/music-and-culture-forms-resistance",
+      kind: "specialist",
+      verified: true,
+      note:
+        "Historical source discussing Marabi's association with Johannesburg slumyards, shebeens and working-class communities."
+    }
+  ]
+},
+,
+
+      // 8. Maskandi
+    
+{
+  name: "Maskandi",
+  type: "tradional",
+  classification: "traditional",
+  originStatus: "strong",
+
+  description:
+    "Maskandi, also known as Maskanda, is a South African Zulu traditional folk-music genre characterised by distinctive acoustic guitar playing, fast finger-picking patterns, storytelling and expressive vocals. Its instrumentation commonly includes acoustic and electric guitars, bass guitar, concertina and, in some performances, violin and drums. Songs often begin with an instrumental introduction known as isihlabo or izihlabo, which showcases the musician's guitar technique. Maskandi lyrics frequently explore personal experiences, relationships, migration, social issues, cultural identity and everyday life. Call-and-response singing and elements of Zulu praise poetry may also feature in performances.",
+
+  origin:
+    "Maskandi emerged around the turn of the twentieth century among Zulu-speaking communities in South Africa, particularly among men who migrated between rural homes in KwaZulu-Natal and urban centres of employment, including mines and cities. Its development was closely connected to labour migration, rural traditions and the social experiences of Zulu migrant workers. In its earlier forms, Maskandi commonly involved a solo singer accompanying himself on an acoustic guitar. Over time, musicians developed distinctive guitar-playing techniques, including ukupika, a finger-picking approach that produces multiple melodic lines. The genre subsequently incorporated additional instruments, including bass guitar, concertina and drums, while retaining its recognisable Zulu musical and storytelling traditions. Its originality lies in combining Zulu musical expression, oral storytelling, distinctive guitar techniques and the experiences of migrant workers to create a recognisable South African musical identity. Maskandi has continued to evolve, reflecting changes in Zulu society while maintaining connections with its historical and cultural roots.",
+
+  classificationDescription:
+    "South African Zulu traditional folk-music genre with a documented historical origin and distinctive cultural, storytelling and instrumental characteristics.",
+
+  references: [
+    {
+      text:
+        "Olsen, K. (2014). Music and Social Change in South Africa: Maskanda Past and Present. Philadelphia: Temple University Press.",
+      url:
+        "https://tupress.temple.edu/books/music-and-social-change-in-south-africa",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book examining Maskanda's emergence among Zulu migrant workers, historical development and socio-political significance."
+    },
+    {
+      text:
+        "Titus, B. (2022). Hearing Maskanda: Musical Epistemologies in South Africa. Bloomsbury Academic.",
+      url:
+        "https://doi.org/10.5040/9781501377792",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic study examining Maskanda's musical practices, cultural knowledge and social meaning."
+    },
+    {
+      text:
+        "Ntombela, S.A. (2017). Maskandi: A critical general inductive analysis of Zulu maskandi songs. Southern African Journal for Folklore Studies, 27(1), 42–52.",
+      url:
+        "https://doi.org/10.25159/1016-8427/1465",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic article examining instrumental introductions, concertina, guitar and vocal performance techniques."
+    },
+    {
+      text:
+        "Ntombela, S.A. (2016). Maskandi: A critical discourse analysis of indigenous isiZulu songs. Southern African Linguistics and Applied Language Studies, 34(2), 109–120.",
+      url:
+        "https://doi.org/10.2989/16073614.2016.1194219",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic article examining cultural expression, metaphors, lyrics and communication in Zulu Maskandi songs."
+    }
+  ]
+},
+,
+
+      // 9. Mbaqanga
+{
+  name: "Mbaqanga",
+  type: "modern",
+  classification: "commercial_popular",
+  originStatus: "strong",
+
+  description:
+    "Mbaqanga is a South African urban commercial popular-music genre that developed into a distinctive style during the 1950s and early 1960s. It is characterised by strong, driving rhythms, electric guitar and bass, repetitive melodic patterns, lively dance beats and call-and-response singing. Its musical arrangements often combine African vocal traditions, township jazz, swing influences and indigenous dance rhythms. Some forms also feature saxophones, vocal harmonies and prominent bass guitar patterns. Mbaqanga became particularly associated with vocal groups and recording artists such as the Mahotella Queens, Mahlathini and the Makgona Tsohle Band.",
+
+  origin:
+    "Mbaqanga developed within South Africa's urban black communities, particularly in Johannesburg and surrounding townships, during the 1950s and early 1960s. Its musical foundations included earlier styles such as Marabi, Kwela and African jazz, as well as rural Zulu musical traditions, including Maskandi guitar playing and the indlamu dance tradition. The genre developed further through commercial recording studios and the work of South African musicians, producers and record companies. The Makgona Tsohle Band, together with vocal performers such as Mahlathini and the Mahotella Queens, played an important role in popularising its distinctive sound. Its originality lies in combining African musical traditions and township jazz influences with electric instruments, strong basslines, repetitive melodies and distinctive vocal arrangements. Mbaqanga became an important expression of black South African urban culture during apartheid, particularly among working-class audiences. Its development was also shaped by the recording industry and the racial and economic conditions of the time. Mbaqanga subsequently influenced the development of South African popular music, including bubblegum and later kwaito.",
+
+  classificationDescription:
+    "South African-developed commercial urban popular-music genre with documented historical development, distinctive African musical influences and a strong connection to the South African recording industry.",
+
+  references: [
+    {
+      text:
+        "Allen, L. (2001). Mbaqanga. Grove Music Online.",
+      url:
+        "https://doi.org/10.1093/gmo/9781561592630.article.51740",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Scholarly music reference distinguishing the earlier 1940s African jazz style from the commercially recorded Mbaqanga style that emerged in the early 1960s."
+    },
+    {
+      text:
+        "Meintjes, L. (2003). Sound of Africa! Making Music Zulu in a South African Studio. Durham: Duke University Press.",
+      url:
+        "https://www.dukeupress.edu/sound-of-africa",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book examining Mbaqanga, Zulu musical identity, studio production and the social and political context of South African music-making."
+    },
+    {
+      text:
+        "Coplan, D.B. (2007). In Township Tonight! South Africa's Black City Music and Theatre. 2nd ed. Chicago: University of Chicago Press.",
+      url:
+        "",
+      kind: "scholarly",
+      verified: true,
+      note:
+        "Academic book providing historical context for the development of black urban music and performance culture in South Africa."
+    },
+    {
+      text:
+        "Encyclopaedia of South African Theatre, Film, Media and Performance (ESAT). Mbaqanga. Stellenbosch University.",
+      url:
+        "https://esat.sun.ac.za/index.php/Mbaqanga",
+      kind: "specialist",
+      verified: true,
+      note:
+        "University-hosted reference documenting Mbaqanga's early-1960s development, KwaZulu-Natal roots and relationship with Marabi and Kwela."
+    },
+    {
+      text:
+        "South African History Online. The Melody of Freedom.",
+      url:
+        "https://sahistory.org.za/archive/melody-freedom",
+      kind: "specialist",
+      verified: true,
+      note:
+        "Historical source discussing Mbaqanga's cultural and political significance during apartheid."
+    }
+  ]
+},
+
+
+      // 10. Shangaan Electro
+      
+{
+  name: "Shangaan Electro",
+  type: "modern",
+  classification: "electronic_dance",
+  originStatus: "strong",
+
+  description:
+    "Shangaan Electro, also known as Tsonga Electro, is a South African electronic dance-music genre that developed around 2005. It is characterised by exceptionally fast electronic beats, often reaching approximately 180–190 beats per minute, rapid synthesised melodies, marimba sounds, electronic percussion and high-pitched or digitally processed vocals. Its musical arrangements often include repetitive melodic patterns, call-and-response singing and energetic rhythms designed for fast-paced dancing. The genre combines traditional Tsonga and Shangaan musical influences with electronic production techniques, creating a distinctive contemporary South African dance sound. Its energetic dance performances are also associated with local cultural traditions, including Tsonga dance and the use of the xibelani skirt.",
+
+  origin:
+    "Shangaan Electro emerged in South Africa's Limpopo region around 2005, drawing on the musical and dance traditions of Tsonga and Shangaan communities. It was popularised by South African producer Richard Mthethwa, widely known as Nozinja, who adapted traditional Shangaan music into a faster electronic style. Nozinja grew up in Limpopo, where he was exposed to traditional Shangaan music, local dance performances and community celebrations. He later moved to Soweto, where he established a recording studio and began experimenting with synthesised sounds, electronic percussion, vocal samples and faster musical tempos. His productions combined traditional Shangaan melodies and rhythms with influences from Tsonga disco, 1980s bubblegum music and house music. The genre gained international recognition following the 2010 compilation album Shangaan Electro: New Wave Dance Music from South Africa, released by Honest Jon's Records. Its originality lies in transforming traditional Tsonga and Shangaan musical and dance practices through exceptionally fast electronic rhythms, distinctive vocal arrangements and modern music-production techniques. Although Nozinja played a central role in popularising the genre, other local musicians and producers also contributed to its development. Its emergence is therefore better understood as a South African musical movement rather than the work of one individual alone.",
+
+  classificationDescription:
+    "South African-developed electronic dance-music genre with a documented Limpopo origin and distinctive Tsonga/Shangaan cultural and musical influences.",
+
+  references: [
+    {
+      text:
+        "Mociun, J. (2023). The frantic rise of Shangaan electro. Pan African Music, 7 December 2023.",
+      url:
+        "https://pan-african-music.com/en/shangaan-electro/",
+      kind: "specialist",
+      verified: true,
+      note:
+        "Verified specialist music-history article discussing Limpopo origins, musical characteristics, Nozinja and other contributors to the genre."
+    },
+    {
+      text:
+        "Welsh, A.C. (2015). How Nozinja Invented Shangaan Electro and Took It to the World. The FADER, 1 June 2015.",
+      url:
+        "https://www.thefader.com/2015/06/01/how-nozinja-invented-shangaan-electro",
+      kind: "specialist",
+      verified: true,
+      note:
+        "Interview-based article containing Nozinja's account of the development of Shangaan Electro and its traditional musical influences."
+    },
+    {
+      text:
+        "Fitzpatrick, R. (2010). Scene and heard: Shangaan electro. The Guardian, 3 August 2010.",
+      url:
+        "https://www.theguardian.com/music/musicblog/2010/aug/03/scene-heard-shangaan",
+      kind: "specialist",
+      verified: true,
+      note:
+        "Contemporary reporting on Nozinja's production activities, recordings and the development of Shangaan Electro."
+    },
+    {
+      text:
+        "Southern African Music Rights Organisation (SAMRO). (2016). Nozinja: Reaching new heights through Shangaan Electro vibes. SAMRO Notes, October 2016.",
+      url:
+        "https://old.samro.org.za/wp-content/uploads/2022/11/samroNotes-October2016.pdf",
+      kind: "specialist",
+      verified: true,
+      note:
+        "South African music-industry publication discussing Nozinja, traditional musical influences, Limpopo and the spread of Shangaan Electro."
+    }
+  ]
+},
+ ]
+  },
+
+  // OTHER AFRICAN COUNTRIES (research coming soon)
+
+  { name: "Algeria", genres: [] },
+  { name: "Angola", genres: [] },
+  { name: "Botswana", genres: [] },
+  { name: "Zimbabwe", genres: [] },
+  { name: "Zambia", genres: [] }
 
 ];
