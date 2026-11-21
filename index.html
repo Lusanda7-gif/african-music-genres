@@ -1,64 +1,72 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>African Music Genres</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>African Music Genres</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>African Music Genres</h1>
-    <p>Discover the music genres that originated in African countries, with sources.</p>
-  </header>
+    <!-- Website heading -->
+    <header>
+        <h1>African Music Genres</h1>
+        <p>Discover the music genres that originated in African countries, with sources.</p>
+    </header>
 
-  <nav class="controls">
-    <label for="countrySelect">Choose a country:</label>
-    <select id="countrySelect"></select>
-  </nav>
-<main>
-    <p id="welcomeMessage">Choose a country above to see its music genres.</p>
-    <aside class="label-note">
-      <h3>How to read the labels</h3>
-      <p><strong>Type:</strong> <em>modern</em> is a named contemporary or popular style. <em>Traditional</em> is a traditional style or performance practice.</p>
-      <p><strong>Origin status:</strong> <em>strong</em> means the genre is well known as associated with this country. <em>Shared</em> means the style is shared across borders and doesn't claim exclusive origin. <em>Debated</em> means scholars disagree about where it began.</p>
-    </aside>
+    <!-- Country selection -->
+    <nav class="controls">
 
-    <h2 id="countryTitle"></h2>
-    <section id="genreList">
-        <!-- SAMPLE CARD: delete this when the JavaScript builds the cards -->
-  <article class="genre-card">
-    <div class="genre-top">
-      <h3 class="genre-name">Amapiano</h3>
-      <div class="badges">
-        <span class="badge badge-modern">Modern</span>
-        <span class="badge badge-strong">Strong</span>
-      </div>
-    </div>
+        <label for="countrySelect">Choose a country:</label>
 
-    <h4>Description</h4>
-    <p>Amapiano is a South African electronic dance music genre characterised by piano melodies, deep basslines and repetitive rhythms.</p>
+        <select id="countrySelect">
+            <option value="">Select a country</option>
+        </select>
 
-    <h4>Origin and originality</h4>
-    <p>Amapiano emerged in South African townships around 2012, but its exact place of origin remains debated.</p>
+    </nav>
 
-    <h4>Classification</h4>
-    <p>South African-developed modern electronic dance music genre.</p>
+    <main>
 
-    <h4>Evidence</h4>
-    <ul class="references">
-      <li>
-        Oloruntoba, A.O. (2024). Understanding amapiano and the South African city. Social Dynamics, 50(3), 416–432.
-        <a href="https://doi.org/10.1080/02533952.2024.2526251" target="_blank">Link</a>
-        <span class="source-tag">Scholarly</span>
-        <span class="verify-tag">Not yet verified</span>
-      </li>
-    </ul>
-  </article>
-    </section>
-  </main>
-  <script src="data.js"></script>
-  <script src="script.js"></script>
+        <!-- Message displayed before selecting a country -->
+        <p id="welcomeMessage">
+            Choose a country above to see its music genres.
+        </p>
+
+        <!-- Explanation of the labels -->
+        <aside class="label-note">
+
+            <h3>How to read the labels</h3>
+
+            <p>
+                <strong>Type:</strong>
+                Modern means a contemporary or popular style.
+                Traditional means a traditional music style.
+            </p>
+
+            <p>
+                <strong>Origin status:</strong>
+                Strong means the genre is well associated with that country.
+                Shared means the music is shared across countries.
+                Debated means there are disagreements about its origin.
+            </p>
+
+        </aside>
+
+        <!-- Selected country name -->
+        <h2 id="countryTitle"></h2>
+
+        <!-- Music genres will appear here -->
+        <section id="genreList"></section>
+
+    </main>
+
+    <!-- JavaScript files -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
